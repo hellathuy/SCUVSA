@@ -1,0 +1,612 @@
+[2016-04-06 11:22 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 912
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=1.00&protection_eligibility=Ineligible&item_number1=&tax=0.00&payer_id=TGK4R76YJJLVE&payment_date=08%3A21%3A51+Apr+06%2C+2016+PDT&payment_status=Completed&charset=windows-1252&mc_tax1=0.00&mc_shipping=0.00&mc_handling=0.00&first_name=Jason&mc_fee=0.33&notify_version=3.8&custom=&payer_status=verified&business=jonfortescue%40gmail.com&num_cart_items=1&mc_handling1=0.00&verify_sign=A9NWNXavd6pvtS7QQ3yGFdqq3wouA.Dbz2NIGrp0fpwTUnNaUesaU0-Q&payer_email=nguyenjas96%40gmail.com&mc_shipping1=0.00&tax1=0.00&btn_id1=113293165&txn_id=47V71239VD567980F&payment_type=instant&payer_business_name=Root+%26+STEM+Tutoring&last_name=Nguyen&item_name1=UPROOTED+Ticket&receiver_email=jonfortescue%40gmail.com&payment_fee=0.33&quantity1=1&receiver_id=WXGSVTCJR8UY4&txn_type=cart&mc_gross_1=1.00&mc_currency=USD&residence_country=US&transaction_subject=&payment_gross=1.00&ipn_track_id=12b89a45de8d1
+[2016-04-06 11:22 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Paypal-Debug-Id: c40ff93ef1135
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-a-origin-www-1.paypal.com
+Date: Wed, 06 Apr 2016 15:22:02 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=SpV9WaYNVmbbOZZyi4PtZKTf3vIum67uv9_2YwftHJAFD9xHWsy0CWtRfgUtJmjVIgzE4KBsAMOrIwtmWVswO8b9fszUEpEQp9g5yMavWKU15arevxnIcxbxgdM0E8kKsv3JGWKTifd39ewaRfxD_kT7zusoxRl7LMmJhlxH2Sv1HP6twGumMqQUJNNfCDt1fEhWUi6bkqNw9MDtZki-yRWUMHxuNPxTe5Oymw5Kvju4jU9ukhT7e8E7FkAfvBgtYNwGTkG4UTzz3Uh2p1KEA7qPQ2mNZHfb5Qh03PAe6W7ee2M90FvlZ4r2qTwUIGGwe__4jneNN0g_z3esfwxt0-KFYDG8Rmnoicert61UjW3nUKFsctgQyIvdVlMlpTgBNlqLsBKKT5wLQNbI4cidFU24wMkN79VdG6bn8KsfNzGCdmV6Y5LcjjhDXWG; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 04-Apr-2026 15:22:02 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 06-Apr-2018 15:22:02 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2569602391%26HTTP_X_PP_AZ_LOCATOR%3D; Expires=Wed, 06 Apr 2016 15:52:02 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: AKDC=slc-a-origin-www-1.paypal.com; expires=Wed, 06-Apr-2016 15:52:02 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2016-04-06 11:22 America/New_York] Verified IPN: cmd=_notify-validate&mc_gross=1.00&protection_eligibility=Ineligible&item_number1=&tax=0.00&payer_id=TGK4R76YJJLVE&payment_date=08%3A21%3A51+Apr+06%2C+2016+PDT&payment_status=Completed&charset=windows-1252&mc_tax1=0.00&mc_shipping=0.00&mc_handling=0.00&first_name=Jason&mc_fee=0.33&notify_version=3.8&custom=&payer_status=verified&business=jonfortescue%40gmail.com&num_cart_items=1&mc_handling1=0.00&verify_sign=A9NWNXavd6pvtS7QQ3yGFdqq3wouA.Dbz2NIGrp0fpwTUnNaUesaU0-Q&payer_email=nguyenjas96%40gmail.com&mc_shipping1=0.00&tax1=0.00&btn_id1=113293165&txn_id=47V71239VD567980F&payment_type=instant&payer_business_name=Root+%26+STEM+Tutoring&last_name=Nguyen&item_name1=UPROOTED+Ticket&receiver_email=jonfortescue%40gmail.com&payment_fee=0.33&quantity1=1&receiver_id=WXGSVTCJR8UY4&txn_type=cart&mc_gross_1=1.00&mc_currency=USD&residence_country=US&transaction_subject=&payment_gross=1.00&ipn_track_id=12b89a45de8d1 
+[2016-04-06 11:32 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 912
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=1.00&protection_eligibility=Ineligible&item_number1=&tax=0.00&payer_id=TGK4R76YJJLVE&payment_date=08%3A32%3A41+Apr+06%2C+2016+PDT&payment_status=Completed&charset=windows-1252&mc_tax1=0.00&mc_shipping=0.00&mc_handling=0.00&first_name=Jason&mc_fee=0.33&notify_version=3.8&custom=&payer_status=verified&business=jonfortescue%40gmail.com&num_cart_items=1&mc_handling1=0.00&verify_sign=A--8MSCLabuvN8L.-MHjxC9uypBtAsi38dPCswxRG5FdYAZzNNB1Ysr6&payer_email=nguyenjas96%40gmail.com&mc_shipping1=0.00&tax1=0.00&btn_id1=113293165&txn_id=1GM69757CV799314T&payment_type=instant&payer_business_name=Root+%26+STEM+Tutoring&last_name=Nguyen&item_name1=UPROOTED+Ticket&receiver_email=jonfortescue%40gmail.com&payment_fee=0.33&quantity1=1&receiver_id=WXGSVTCJR8UY4&txn_type=cart&mc_gross_1=1.00&mc_currency=USD&residence_country=US&transaction_subject=&payment_gross=1.00&ipn_track_id=fe25fc9ace865
+[2016-04-06 11:32 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Paypal-Debug-Id: f256ee703a392
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-a-origin-www-1.paypal.com
+Date: Wed, 06 Apr 2016 15:32:58 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=1X0g6etlL4Lh01QHL4yH2IfS6mEO8LGl_Rx5qp5k1VGgA8-cS90Nmk41iEyz-Db-oPvw0eODCU5qwbvgpuLgbKjHahUi3xwXAr6ylbcKRnd8_9s_s42rIoOBAT129MXwcGRMmC8N78Pjy4rvbUuulbK2PBiJEwNniHL26BMufBupG3xJio1gu4OqPhWGXiME6w7mvkn440CPIjMNCZszDdk0RmzVWM4vtw3eyaJs7uAl7tpINy3Ifp21kTUDCgNLlwavqHrNO4bawMQY08Odf0P8tQiQ3ZVhgex0Ce0vhGtekKUCvmS8yQKs79SJCWwnYzpmDP4zl9JK3JuXQGxsCRTnBoKFcgQHectFw-h_7S6eoO-mOAjN5Wk4xmGl11InX0LN__0v4N1daW5A3mv3wnAfzHKu_7stHzH29U379BHAGqdbU4yPr8AL8bi; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 04-Apr-2026 15:32:58 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 06-Apr-2018 15:32:58 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D707528023%26HTTP_X_PP_AZ_LOCATOR%3D; Expires=Wed, 06 Apr 2016 16:02:58 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: AKDC=slc-a-origin-www-1.paypal.com; expires=Wed, 06-Apr-2016 16:02:58 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2016-04-06 11:32 America/New_York] Verified IPN: cmd=_notify-validate&mc_gross=1.00&protection_eligibility=Ineligible&item_number1=&tax=0.00&payer_id=TGK4R76YJJLVE&payment_date=08%3A32%3A41+Apr+06%2C+2016+PDT&payment_status=Completed&charset=windows-1252&mc_tax1=0.00&mc_shipping=0.00&mc_handling=0.00&first_name=Jason&mc_fee=0.33&notify_version=3.8&custom=&payer_status=verified&business=jonfortescue%40gmail.com&num_cart_items=1&mc_handling1=0.00&verify_sign=A--8MSCLabuvN8L.-MHjxC9uypBtAsi38dPCswxRG5FdYAZzNNB1Ysr6&payer_email=nguyenjas96%40gmail.com&mc_shipping1=0.00&tax1=0.00&btn_id1=113293165&txn_id=1GM69757CV799314T&payment_type=instant&payer_business_name=Root+%26+STEM+Tutoring&last_name=Nguyen&item_name1=UPROOTED+Ticket&receiver_email=jonfortescue%40gmail.com&payment_fee=0.33&quantity1=1&receiver_id=WXGSVTCJR8UY4&txn_type=cart&mc_gross_1=1.00&mc_currency=USD&residence_country=US&transaction_subject=&payment_gross=1.00&ipn_track_id=fe25fc9ace865 
+[2016-04-06 15:19 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 892
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=1.00&protection_eligibility=Ineligible&item_number1=&payer_id=HSRNJ4ZUJ2PEU&tax=0.00&payment_date=12%3A19%3A35+Apr+06%2C+2016+PDT&payment_status=Completed&charset=windows-1252&mc_tax1=0.00&mc_shipping=0.00&mc_handling=0.00&first_name=Amand&mc_fee=0.33&notify_version=3.8&custom=&payer_status=unverified&business=jonfortescue%40gmail.com&num_cart_items=1&mc_handling1=0.00&verify_sign=Az.w0YFwARDSW9eX-ilRmYwsXPSmArvA29.QImIntWV6-BgXxaxfY1qC&payer_email=adahl%40scu.edu&mc_shipping1=0.00&tax1=0.00&btn_id1=113293165&txn_id=3RU678085W714511K&payment_type=instant&last_name=Dahl&item_name1=UPROOTED+Ticket&receiver_email=jonfortescue%40gmail.com&payment_fee=0.33&quantity1=1&receiver_id=WXGSVTCJR8UY4&txn_type=cart&mc_gross_1=1.00&mc_currency=USD&residence_country=US&receipt_id=5502-9812-2528-9332&transaction_subject=&payment_gross=1.00&ipn_track_id=f9b02a341afef
+[2016-04-06 15:19 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Paypal-Debug-Id: 4b387dcbd0c55
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-a-origin-www-2.paypal.com
+Date: Wed, 06 Apr 2016 19:19:47 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=hLZFqMMqXjZC_QPAjNXDiNP2MONWfKghYyj2teP1CBjDEXZ6T7sPor1RvLeQeiqX-IWHYYMLTBKnrVjnKdD0G5TQj8QfRbagb-B69SWhn16PL_hz-zVoMnSc3qaRj61W_VvHjQbKrq5boKcp-eEuldsPyijUKEfLyM1wy27Vh-MkLijgjzDs-5kZ7akkFuyZGpQ3kyr1V1efsQWI2l6fszG0d1BHtRpPcN2k4-o0EzrZp1aDsYssdcXAd92TeaQXBj5PqSjbM2ongYgI6K77iztBQrv-XxhLeGEQpG9iTtdyrqnCwFoQFZGGG6tBte-ynZnHLrv1Uj_t-lArMNyq3rvvGwU-gRkU4jHi4u3pQHf9H4aheof7dOP-TvSeYUxoV6HtJagIDEcpWg2xUc7odlcfg409wlvIln8l8O9alvKqIuUJclgaKMihq9q; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 04-Apr-2026 19:19:47 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 06-Apr-2018 19:19:47 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1382090071%26HTTP_X_PP_AZ_LOCATOR%3D; Expires=Wed, 06 Apr 2016 19:49:47 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: AKDC=slc-a-origin-www-2.paypal.com; expires=Wed, 06-Apr-2016 19:49:47 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2016-04-06 15:19 America/New_York] Verified IPN: cmd=_notify-validate&mc_gross=1.00&protection_eligibility=Ineligible&item_number1=&payer_id=HSRNJ4ZUJ2PEU&tax=0.00&payment_date=12%3A19%3A35+Apr+06%2C+2016+PDT&payment_status=Completed&charset=windows-1252&mc_tax1=0.00&mc_shipping=0.00&mc_handling=0.00&first_name=Amand&mc_fee=0.33&notify_version=3.8&custom=&payer_status=unverified&business=jonfortescue%40gmail.com&num_cart_items=1&mc_handling1=0.00&verify_sign=Az.w0YFwARDSW9eX-ilRmYwsXPSmArvA29.QImIntWV6-BgXxaxfY1qC&payer_email=adahl%40scu.edu&mc_shipping1=0.00&tax1=0.00&btn_id1=113293165&txn_id=3RU678085W714511K&payment_type=instant&last_name=Dahl&item_name1=UPROOTED+Ticket&receiver_email=jonfortescue%40gmail.com&payment_fee=0.33&quantity1=1&receiver_id=WXGSVTCJR8UY4&txn_type=cart&mc_gross_1=1.00&mc_currency=USD&residence_country=US&receipt_id=5502-9812-2528-9332&transaction_subject=&payment_gross=1.00&ipn_track_id=f9b02a341afef 
+[2016-04-06 16:40 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 904
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=2.00&protection_eligibility=Ineligible&item_number1=&payer_id=95HY664MNDN7S&tax=0.00&payment_date=13%3A40%3A20+Apr+06%2C+2016+PDT&payment_status=Completed&charset=windows-1252&mc_tax1=0.00&mc_shipping=0.00&mc_handling=0.00&first_name=Meg&mc_fee=0.36&notify_version=3.8&custom=&payer_status=unverified&business=jonfortescue%40gmail.com&num_cart_items=1&mc_handling1=0.00&verify_sign=ApBHX6qbpxJW-Ll3oP22LSbo0WeuAn9Ed4DsqAlBcaGa6B-njeSyL.q0&payer_email=megdesmond%40comcast.net&mc_shipping1=0.00&tax1=0.00&btn_id1=113293165&txn_id=5S305742Y0704142T&payment_type=instant&last_name=Fortescue&item_name1=UPROOTED+Ticket&receiver_email=jonfortescue%40gmail.com&payment_fee=0.36&quantity1=2&receiver_id=WXGSVTCJR8UY4&txn_type=cart&mc_gross_1=2.00&mc_currency=USD&residence_country=US&receipt_id=4740-1687-4306-8472&transaction_subject=&payment_gross=2.00&ipn_track_id=b8d2eaa67cd15
+[2016-04-06 16:40 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Paypal-Debug-Id: e17af8705cd69
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: phx-origin-www-1.paypal.com
+Date: Wed, 06 Apr 2016 20:40:41 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=eKOYE1nFwMbeMcMa2SOq0JoiCT1-oOltsNSHj2jfE8Rt_D4SCyAJ02D65ov0Zd4pk96fi3QnoysAmfNnjPhcX2IWUrHvje9XuS4KBHQZL7SN-Zw_5CL1NdpK9zuIaxzkYRb95jQCh1A3JRlQCAu5lXpCO4lAP2o140pufGFiZy7AawCRvPaAd69SCQpE7QA6AyvBOaUJwJSvyg2Q3eDHTRFHmUX_ANkgCnERyzNTCIiT1HWB4DGVhyftU5eqKSQFMsN_cwm5SsCl3y5itl0At0oSE6pTpd7CCIQzb1Nnlbwd-4X2pllsD4rJMiZxVCxNvXybaJRR08SVeVG3NicpDHkI8HXoRvyDZaPYOtRO3IyA8DKi04td4IvecEJuTsY2Ry1wsSAWK7XrACICROZEEkKecg0Bh2BtzZ65hBRyfpbNBVNemugc0eD1Vaa; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 04-Apr-2026 20:40:41 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 06-Apr-2018 20:40:41 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=name%3DLIVE3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1232340311%26HTTP_X_PP_AZ_LOCATOR%3D; Expires=Wed, 06 Apr 2016 21:10:41 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.190.8.167.1459975241380086; path=/; expires=Fri, 30-Mar-46 20:40:41 GMT
+Set-Cookie: AKDC=phx-origin-www-1.paypal.com; expires=Wed, 06-Apr-2016 21:10:41 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2016-04-06 16:40 America/New_York] Verified IPN: cmd=_notify-validate&mc_gross=2.00&protection_eligibility=Ineligible&item_number1=&payer_id=95HY664MNDN7S&tax=0.00&payment_date=13%3A40%3A20+Apr+06%2C+2016+PDT&payment_status=Completed&charset=windows-1252&mc_tax1=0.00&mc_shipping=0.00&mc_handling=0.00&first_name=Meg&mc_fee=0.36&notify_version=3.8&custom=&payer_status=unverified&business=jonfortescue%40gmail.com&num_cart_items=1&mc_handling1=0.00&verify_sign=ApBHX6qbpxJW-Ll3oP22LSbo0WeuAn9Ed4DsqAlBcaGa6B-njeSyL.q0&payer_email=megdesmond%40comcast.net&mc_shipping1=0.00&tax1=0.00&btn_id1=113293165&txn_id=5S305742Y0704142T&payment_type=instant&last_name=Fortescue&item_name1=UPROOTED+Ticket&receiver_email=jonfortescue%40gmail.com&payment_fee=0.36&quantity1=2&receiver_id=WXGSVTCJR8UY4&txn_type=cart&mc_gross_1=2.00&mc_currency=USD&residence_country=US&receipt_id=4740-1687-4306-8472&transaction_subject=&payment_gross=2.00&ipn_track_id=b8d2eaa67cd15 
+[2016-04-12 15:21 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 845
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=8.53&protection_eligibility=Ineligible&item_number1=&payer_id=XHWXYFB9F9NMN&tax=0.00&payment_date=12%3A21%3A29+Apr+12%2C+2016+PDT&payment_status=Completed&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=Kevin&mc_fee=0.55&notify_version=3.8&custom=&payer_status=unverified&business=love%40scuvsa.org&num_cart_items=1&mc_handling1=0.00&verify_sign=A.nK1pg0LqR2cWVPfU5c1cRLbKt2AmluGM2Vot.4UMZYoxwui1SwNFo2&payer_email=kevinnamhoang%40gmail.com&mc_shipping1=0.00&tax1=0.00&btn_id1=113392694&txn_id=8XT26982CR899364J&payment_type=instant&last_name=Hoang&item_name1=UPROOTED+Ticket&receiver_email=love%40scuvsa.org&payment_fee=0.55&quantity1=1&receiver_id=XKPSG5MENRTD2&txn_type=cart&mc_gross_1=8.53&mc_currency=USD&residence_country=US&transaction_subject=&payment_gross=8.53&ipn_track_id=1eeab19390f27
+[2016-04-12 15:21 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Paypal-Debug-Id: 7906bcae67b5b
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: phx-origin-www-1.paypal.com
+Date: Tue, 12 Apr 2016 19:21:39 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=MQIOsuHxXl5RuYqdwOuJjpNcvwLbriF0hPZxbtl8qz_k13He_nUs1ZevbMiv-lgTVLleoLdOSbl9EZly4FQiupnEs-e1FT8I_uK61zxEiDUL5I_ZUNbLJS4o76XKtqs9QdAcXMixhqO-hRi-Fw_gGiitxCbGWXzAxd4gcDOZGzjQDOb7ZlwroQn8jXJFzWO-er6etSkCyvsrTG-db_F9Ulq5dBOVKL1xZpcF73YRsaBfAJabbcEfr8d9fNDlVLXNd8GBMN2kS4K-8iDKKLiwexlX5mGQKrv1SSzHMXIwsMb0Q_Wt2cqwqQiAGUMki_oiczezfMgGLdP7CDRzZEmnI7y-bMKHDcf_GbfS0odNbLx5tYVuqZmvVoSp1pJreOCpcsn4XcpDzpkEET3qTBBEXhZFknkenHaVJCBcVbPO0oGfGcnLjgvdYb1qZSS; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Fri, 10-Apr-2026 19:21:39 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Thu, 12-Apr-2018 19:21:39 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=name%3DLIVE3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3276410199%26HTTP_X_PP_AZ_LOCATOR%3D; Expires=Tue, 12 Apr 2016 19:51:39 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.190.8.157.1460488899424596; path=/; expires=Thu, 05-Apr-46 19:21:39 GMT
+Set-Cookie: AKDC=phx-origin-www-1.paypal.com; expires=Tue, 12-Apr-2016 19:51:39 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2016-04-12 15:21 America/New_York] Verified IPN: cmd=_notify-validate&mc_gross=8.53&protection_eligibility=Ineligible&item_number1=&payer_id=XHWXYFB9F9NMN&tax=0.00&payment_date=12%3A21%3A29+Apr+12%2C+2016+PDT&payment_status=Completed&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=Kevin&mc_fee=0.55&notify_version=3.8&custom=&payer_status=unverified&business=love%40scuvsa.org&num_cart_items=1&mc_handling1=0.00&verify_sign=A.nK1pg0LqR2cWVPfU5c1cRLbKt2AmluGM2Vot.4UMZYoxwui1SwNFo2&payer_email=kevinnamhoang%40gmail.com&mc_shipping1=0.00&tax1=0.00&btn_id1=113392694&txn_id=8XT26982CR899364J&payment_type=instant&last_name=Hoang&item_name1=UPROOTED+Ticket&receiver_email=love%40scuvsa.org&payment_fee=0.55&quantity1=1&receiver_id=XKPSG5MENRTD2&txn_type=cart&mc_gross_1=8.53&mc_currency=USD&residence_country=US&transaction_subject=&payment_gross=8.53&ipn_track_id=1eeab19390f27 
+[2016-04-14 01:50 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 846
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=8.53&protection_eligibility=Ineligible&item_number1=&payer_id=WFL5ATCQYAPP4&tax=0.00&payment_date=22%3A50%3A15+Apr+13%2C+2016+PDT&payment_status=Completed&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=Nancy&mc_fee=0.55&notify_version=3.8&custom=&payer_status=verified&business=love%40scuvsa.org&num_cart_items=1&mc_handling1=0.00&verify_sign=AdmmVXDw45KNrtPFVzlVd.5e-WYJAFmNPie2rVw2O8vpaUkfqWBGvQi6&payer_email=nguyenkaitlyn02%40yahoo.com&mc_shipping1=0.00&tax1=0.00&btn_id1=113392694&txn_id=3EL096995M807954S&payment_type=instant&last_name=Nguyen&item_name1=UPROOTED+Ticket&receiver_email=love%40scuvsa.org&payment_fee=0.55&quantity1=1&receiver_id=XKPSG5MENRTD2&txn_type=cart&mc_gross_1=8.53&mc_currency=USD&residence_country=US&transaction_subject=&payment_gross=8.53&ipn_track_id=ce2b6deeca357
+[2016-04-14 01:50 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Paypal-Debug-Id: 3a34b2a7c33bc
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: phx-origin-www-2.paypal.com
+Date: Thu, 14 Apr 2016 05:50:26 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=ExZeewCeiy0AhBAD8v-WIRmMwJj0KLes2fzm4hc_RBQr9ed05gvTCPXGLXmeiXXfTRFs8b4Xy2I56ICmuojos195gQrGhHq1narpklZkYBVq2VdXK9_jVTge5a3d8b_PDLX7QPAn6wzEiezQVFyR-dmfKbp5__TIFHB4-iSQNVffOAFibD05N5IqzUmp7MGOoBY1rU0O4DPrOxqan1pD4l0uaVaWxBVIK0r2emRoJhe7jW-viwmCUli0aL4CB4V4xMmJBIv5EssSy60iJnWEYVql4kwZ0lj9i7aOGA6F0ftuGmgJcIgdJsDhBb2NOYt1UF2CUiMeHnjITdTv5-j6T9ie8GfwayesO1q6xJUXLlB67NHWkB6fmdvsUpDE-KuDpNu9ZqVFy9wCVwho8w4JvcvI125nR0TIQg4fx8exZVN9q7EXzofiS__mqVq; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sun, 12-Apr-2026 05:50:26 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sat, 14-Apr-2018 05:50:26 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=name%3DLIVE3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2704215895%26HTTP_X_PP_AZ_LOCATOR%3D; Expires=Thu, 14 Apr 2016 06:20:26 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.190.9.196.1460613025799531; path=/; expires=Sat, 07-Apr-46 05:50:25 GMT
+Set-Cookie: AKDC=phx-origin-www-2.paypal.com; expires=Thu, 14-Apr-2016 06:20:26 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2016-04-14 01:50 America/New_York] Verified IPN: cmd=_notify-validate&mc_gross=8.53&protection_eligibility=Ineligible&item_number1=&payer_id=WFL5ATCQYAPP4&tax=0.00&payment_date=22%3A50%3A15+Apr+13%2C+2016+PDT&payment_status=Completed&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=Nancy&mc_fee=0.55&notify_version=3.8&custom=&payer_status=verified&business=love%40scuvsa.org&num_cart_items=1&mc_handling1=0.00&verify_sign=AdmmVXDw45KNrtPFVzlVd.5e-WYJAFmNPie2rVw2O8vpaUkfqWBGvQi6&payer_email=nguyenkaitlyn02%40yahoo.com&mc_shipping1=0.00&tax1=0.00&btn_id1=113392694&txn_id=3EL096995M807954S&payment_type=instant&last_name=Nguyen&item_name1=UPROOTED+Ticket&receiver_email=love%40scuvsa.org&payment_fee=0.55&quantity1=1&receiver_id=XKPSG5MENRTD2&txn_type=cart&mc_gross_1=8.53&mc_currency=USD&residence_country=US&transaction_subject=&payment_gross=8.53&ipn_track_id=ce2b6deeca357 
+[2016-04-21 01:53 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 880
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=25.59&protection_eligibility=Ineligible&item_number1=&payer_id=ADEF8SYE7K2QW&tax=0.00&payment_date=22%3A53%3A24+Apr+20%2C+2016+PDT&payment_status=Completed&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=Charles&mc_fee=1.04&notify_version=3.8&custom=&payer_status=unverified&business=love%40scuvsa.org&num_cart_items=1&mc_handling1=0.00&verify_sign=Alpz2FsXqFbNgbKHEk8HZtLKZnQbAm7WG8Zi.vU1ABEZd9PqCoEvaOJ6&payer_email=charlestran.a%40gmail.com&mc_shipping1=0.00&tax1=0.00&btn_id1=113392694&txn_id=61X59232XT294600P&payment_type=instant&last_name=Tran&item_name1=UPROOTED+Ticket&receiver_email=love%40scuvsa.org&payment_fee=1.04&quantity1=3&receiver_id=XKPSG5MENRTD2&txn_type=cart&mc_gross_1=25.59&mc_currency=USD&residence_country=US&receipt_id=0188-2325-8099-3247&transaction_subject=&payment_gross=25.59&ipn_track_id=db9f8b06e99cf
+[2016-04-21 01:53 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Paypal-Debug-Id: 14cf637c341e6
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-a-origin-www-2.paypal.com
+Date: Thu, 21 Apr 2016 05:53:36 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=I0GaLyHBMpH5n6XvEomanBj6H-UtVUYv0VHTXhCcW4LJAhe4IpuVUiffoOEMBKjdia3q7_byBC03IWBBXq0YnpBX_4k6bha9WJUGrE015FKV8zCs-tjTSDImlCUqVWxzjumpPRE9Qqh5K-IYzL2xSjLMXk5v_jS-4vTvW_hu9Ov65QbJlsJy5DFHq2itGQxcbZrrOQKCcRPHsy9YkjHBigmZFnXOqqw0wsRSebQPKOEWW4Dy3OQcbsx8Y08dHvPrZDFEdoVjWcSsPbbHT1KEuGDMt_UhNZ0CucwbSrMeaXPOy_heb4J6jkEKx4KYFd_TYsXYTWjptBlZ5MFSbbRPWUozq8Eyyf9tSBPQ5db2Ae-uNGJpzFVkuMnkV8_e8LqwnyHYzrLWuRZlG4em5F1AYhPp_Ef2xMug7TnWa5Y0vuFs8dv3XNj4Tj9tThq; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sun, 19-Apr-2026 05:53:36 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sat, 21-Apr-2018 05:53:36 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3765049431%26HTTP_X_PP_AZ_LOCATOR%3D; Expires=Thu, 21 Apr 2016 06:23:36 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: AKDC=slc-a-origin-www-2.paypal.com; expires=Thu, 21-Apr-2016 06:23:36 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2016-04-21 01:53 America/New_York] Verified IPN: cmd=_notify-validate&mc_gross=25.59&protection_eligibility=Ineligible&item_number1=&payer_id=ADEF8SYE7K2QW&tax=0.00&payment_date=22%3A53%3A24+Apr+20%2C+2016+PDT&payment_status=Completed&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=Charles&mc_fee=1.04&notify_version=3.8&custom=&payer_status=unverified&business=love%40scuvsa.org&num_cart_items=1&mc_handling1=0.00&verify_sign=Alpz2FsXqFbNgbKHEk8HZtLKZnQbAm7WG8Zi.vU1ABEZd9PqCoEvaOJ6&payer_email=charlestran.a%40gmail.com&mc_shipping1=0.00&tax1=0.00&btn_id1=113392694&txn_id=61X59232XT294600P&payment_type=instant&last_name=Tran&item_name1=UPROOTED+Ticket&receiver_email=love%40scuvsa.org&payment_fee=1.04&quantity1=3&receiver_id=XKPSG5MENRTD2&txn_type=cart&mc_gross_1=25.59&mc_currency=USD&residence_country=US&receipt_id=0188-2325-8099-3247&transaction_subject=&payment_gross=25.59&ipn_track_id=db9f8b06e99cf 
+[2016-04-21 01:55 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 850
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=25.59&protection_eligibility=Ineligible&item_number1=&payer_id=WFBLXSLQLMT5S&tax=0.00&payment_date=22%3A55%3A18+Apr+20%2C+2016+PDT&payment_status=Completed&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=Hai+Charles&mc_fee=1.04&notify_version=3.8&custom=&payer_status=verified&business=love%40scuvsa.org&num_cart_items=1&mc_handling1=0.00&verify_sign=ADmhMw5gqASpvy.X38.nDdwooKz7AQ-fk-.9THnfoyxORslWMIm5Bu1p&payer_email=charlestran.h%40gmail.com&mc_shipping1=0.00&tax1=0.00&btn_id1=113392694&txn_id=8GL0460800564622C&payment_type=instant&last_name=Tran&item_name1=UPROOTED+Ticket&receiver_email=love%40scuvsa.org&payment_fee=1.04&quantity1=3&receiver_id=XKPSG5MENRTD2&txn_type=cart&mc_gross_1=25.59&mc_currency=USD&residence_country=US&transaction_subject=&payment_gross=25.59&ipn_track_id=e35d23a9b10d
+[2016-04-21 01:55 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Paypal-Debug-Id: e7ba63b04cc05
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-a-origin-www-2.paypal.com
+Date: Thu, 21 Apr 2016 05:55:30 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=5lIlgq2u7Ac0VIjevEp3GPt5gHh8RTLDMO4c-z7fNLWGwxjwLkGbwuORh986K9lMqP5De_vIZAmETB6ORHTrMoo8WFQTty-5Un23NFx-EC2KJxHYOc8Vpo7bZkJzks-hl4u3Q27nVif41-_witreJYwIOYSi1Bva8cTBPjAJ9z8TVZgNl0WkH_eVbaBIV5PvJ_F3tdzbN414zgfcNPvjodfoZAz0OxflJHMJL9kN8vEbKakyjY3y_x8mG-sWlFipuM4K0wfDqo81H2lOm2AqfZ8OMan7xfoMIxEn0ZRBWP5rN7hK0mIO5ThYwXbm8-KCsfM3QGacWivs1rfEMJx82quiffdlq1P8iR4jTeAXbX9jNC1q1tU5UE_gx_E0FNsDTNz-EPwOW_kH2TKP6OPEIvPp24tW2o4tR7LqxvTsyzM4CKlwdU-vSGGP88m; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sun, 19-Apr-2026 05:55:30 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sat, 21-Apr-2018 05:55:30 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1382750295%26HTTP_X_PP_AZ_LOCATOR%3D; Expires=Thu, 21 Apr 2016 06:25:30 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: AKDC=slc-a-origin-www-2.paypal.com; expires=Thu, 21-Apr-2016 06:25:30 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2016-04-21 01:55 America/New_York] Verified IPN: cmd=_notify-validate&mc_gross=25.59&protection_eligibility=Ineligible&item_number1=&payer_id=WFBLXSLQLMT5S&tax=0.00&payment_date=22%3A55%3A18+Apr+20%2C+2016+PDT&payment_status=Completed&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=Hai+Charles&mc_fee=1.04&notify_version=3.8&custom=&payer_status=verified&business=love%40scuvsa.org&num_cart_items=1&mc_handling1=0.00&verify_sign=ADmhMw5gqASpvy.X38.nDdwooKz7AQ-fk-.9THnfoyxORslWMIm5Bu1p&payer_email=charlestran.h%40gmail.com&mc_shipping1=0.00&tax1=0.00&btn_id1=113392694&txn_id=8GL0460800564622C&payment_type=instant&last_name=Tran&item_name1=UPROOTED+Ticket&receiver_email=love%40scuvsa.org&payment_fee=1.04&quantity1=3&receiver_id=XKPSG5MENRTD2&txn_type=cart&mc_gross_1=25.59&mc_currency=USD&residence_country=US&transaction_subject=&payment_gross=25.59&ipn_track_id=e35d23a9b10d 
+[2016-04-21 02:43 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 852
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=-24.55&protection_eligibility=Ineligible&item_number1=&payer_id=WFBLXSLQLMT5S&payment_date=23%3A43%3A46+Apr+20%2C+2016+PDT&payment_status=Reversed&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=Hai+Charles&mc_fee=-1.04&notify_version=3.8&reason_code=buyer_complaint&custom=&business=love%40scuvsa.org&mc_handling1=0.00&verify_sign=AbBIww12EQnvrHwYmd1wb98zYz53A5iyF9nPorKCmq8CIoJ854etlyxi&payer_email=charlestran.h%40gmail.com&mc_shipping1=0.00&tax1=0.00&parent_txn_id=8GL0460800564622C&btn_id1=113392694&txn_id=27619150NY3339808&payment_type=instant&last_name=Tran&item_name1=UPROOTED+Ticket&receiver_email=love%40scuvsa.org&payment_fee=-1.04&quantity1=3&receiver_id=XKPSG5MENRTD2&mc_gross_1=25.59&mc_currency=USD&residence_country=US&transaction_subject=&payment_gross=-24.55&ipn_track_id=9df3ec6a21139
+[2016-04-21 02:43 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Paypal-Debug-Id: a440fec3f2706
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-a-origin-www-2.paypal.com
+Date: Thu, 21 Apr 2016 06:43:55 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=iF5q8MF4IMphTEx17hwMmbaNqpuleBW3Iy5WC9za78dI1yg2v0qCM4CmAeKTRBA1r10gU94vG3okWaa7jA7XohBEGfGp0B0UaczMBoL4Or6Hyz4Zxjf0kl_DfuT0Se4GzH4wdA7ym_XpDOPUOAzlQlTo37XpSDHvssoabBEnSxjVag9efw_dnP-gSUu8hwuEeImcQ4z2nqFmQvbGwlkm8kQk_eyYyvlXj57sCv5fDLvX_1jt-6QWEWVRD5KMAe_87r0zcWHrX0YpJXXCuKCLFVmRxemthWEZTfzkNMsnUTDNZhAO7URliJQ1YWFF9zuqS35zVVPbu-PveWM7S9vT7C-ve7Aa27UCtjUZQ4s2jLyKjtYYAKz_-N_RH4r1QL3fTzNvTlt2psbmGDej3PrS-D7oAOZwJxaqimF6NOLUjv_OBPsoWwhnUQyxh7e; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sun, 19-Apr-2026 06:43:55 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sat, 21-Apr-2018 06:43:55 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2859866199%26HTTP_X_PP_AZ_LOCATOR%3D; Expires=Thu, 21 Apr 2016 07:13:55 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: AKDC=slc-a-origin-www-2.paypal.com; expires=Thu, 21-Apr-2016 07:13:55 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2016-04-21 02:43 America/New_York] Verified IPN: cmd=_notify-validate&mc_gross=-24.55&protection_eligibility=Ineligible&item_number1=&payer_id=WFBLXSLQLMT5S&payment_date=23%3A43%3A46+Apr+20%2C+2016+PDT&payment_status=Reversed&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=Hai+Charles&mc_fee=-1.04&notify_version=3.8&reason_code=buyer_complaint&custom=&business=love%40scuvsa.org&mc_handling1=0.00&verify_sign=AbBIww12EQnvrHwYmd1wb98zYz53A5iyF9nPorKCmq8CIoJ854etlyxi&payer_email=charlestran.h%40gmail.com&mc_shipping1=0.00&tax1=0.00&parent_txn_id=8GL0460800564622C&btn_id1=113392694&txn_id=27619150NY3339808&payment_type=instant&last_name=Tran&item_name1=UPROOTED+Ticket&receiver_email=love%40scuvsa.org&payment_fee=-1.04&quantity1=3&receiver_id=XKPSG5MENRTD2&mc_gross_1=25.59&mc_currency=USD&residence_country=US&transaction_subject=&payment_gross=-24.55&ipn_track_id=9df3ec6a21139 
+[2016-04-21 02:44 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 799
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&txn_type=new_case&payment_date=22%3A55%3A18+Apr+20%2C+2016+PDT&case_id=PP-004-764-494-172&case_type=dispute&business=love%40scuvsa.org&verify_sign=AFcWxV21C7fd0v3bYYYRCpSSRl31Anrrp1k5a3faXEZ0sSI3R.UA0bQj&payer_email=charlestran.h%40gmail.com&txn_id=8GL0460800564622C&case_creation_date=23%3A43%3A03+Apr+20%2C+2016+PDT&receiver_email=love%40scuvsa.org&buyer_additional_information=Long+story+short%2C+I+accidentally+made+2+separate+transactions.+Each+transaction+is+with+3+tickets.+The+other+transaction+has+a+receipt+%23%3A+0188-2325-8099-3247.+Can+you+please+cancel+this+transaction+or+refund+me+the+amount%3F+%0A%0AThank+you&payer_id=WFBLXSLQLMT5S&receiver_id=XKPSG5MENRTD2&reason_code=not_as_described&custom=&charset=windows-1252&notify_version=3.8&ipn_track_id=d35121e19d29
+[2016-04-21 02:44 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Paypal-Debug-Id: 425084d665dd4
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-a-origin-www-2.paypal.com
+Date: Thu, 21 Apr 2016 06:44:48 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=8fpt2F8IyE698p-duaaM1fWKC87prTDU0MCaiMER4Nuv0mcdRbM2kt8bkFQt0dOsT9GwkXl4JCtENIHVoQC1cPKbkmgtYbu6An4yVEkrVgLQTWp0E2NsZmIrMKIMsvTtT1ABg7c57DMYdgismUEHKUak8Hqc3XrssZYmPhfCS_yRKoNfCEli3lANJ0yk9gFINzUhb6oXm2_ZqMmIi0jFERlYxJXM8HA8ApEkXXh_W2OwqaewZ4Tyc9_ngTOug5jgLvSncvSfb6EoIQoLwxP-uSF_zdhzv9pCTJ-xQZDrycIvv3rSRI0XFH5c7g3LDKDVW9okqbvLm3llvYjpRTmDKMIFgMoDv1CAiGDJP1uMXXfaIS4pGqowAAvjwCpVZuLGlSXJ1kGAs1fkS93XdJcKZBsgyTYere6BzabyG8uuEifdhGO8E51MREZKbEu; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sun, 19-Apr-2026 06:44:48 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sat, 21-Apr-2018 06:44:48 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3765835863%26HTTP_X_PP_AZ_LOCATOR%3D; Expires=Thu, 21 Apr 2016 07:14:48 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: AKDC=slc-a-origin-www-2.paypal.com; expires=Thu, 21-Apr-2016 07:14:48 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2016-04-21 02:44 America/New_York] Verified IPN: cmd=_notify-validate&txn_type=new_case&payment_date=22%3A55%3A18+Apr+20%2C+2016+PDT&case_id=PP-004-764-494-172&case_type=dispute&business=love%40scuvsa.org&verify_sign=AFcWxV21C7fd0v3bYYYRCpSSRl31Anrrp1k5a3faXEZ0sSI3R.UA0bQj&payer_email=charlestran.h%40gmail.com&txn_id=8GL0460800564622C&case_creation_date=23%3A43%3A03+Apr+20%2C+2016+PDT&receiver_email=love%40scuvsa.org&buyer_additional_information=Long+story+short%2C+I+accidentally+made+2+separate+transactions.+Each+transaction+is+with+3+tickets.+The+other+transaction+has+a+receipt+%23%3A+0188-2325-8099-3247.+Can+you+please+cancel+this+transaction+or+refund+me+the+amount%3F+%0A%0AThank+you&payer_id=WFBLXSLQLMT5S&receiver_id=XKPSG5MENRTD2&reason_code=not_as_described&custom=&charset=windows-1252&notify_version=3.8&ipn_track_id=d35121e19d29 
+[2016-04-21 02:53 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 852
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=-25.59&protection_eligibility=Ineligible&item_number1=&payer_id=WFBLXSLQLMT5S&payment_date=23%3A53%3A10+Apr+20%2C+2016+PDT&payment_status=Refunded&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=Hai+Charles&mc_fee=-0.74&notify_version=3.8&reason_code=buyer_complaint&custom=&business=love%40scuvsa.org&mc_handling1=0.00&verify_sign=A9dADuYwvEjnZFZR-7rNxIVnbQoAATyY64bicMjGQm69lXmi6Bq34ucS&payer_email=charlestran.h%40gmail.com&mc_shipping1=0.00&tax1=0.00&parent_txn_id=8GL0460800564622C&btn_id1=113392694&txn_id=03S44479PJ1489034&payment_type=instant&last_name=Tran&item_name1=UPROOTED+Ticket&receiver_email=love%40scuvsa.org&payment_fee=-0.74&quantity1=3&receiver_id=XKPSG5MENRTD2&mc_gross_1=25.59&mc_currency=USD&residence_country=US&transaction_subject=&payment_gross=-25.59&ipn_track_id=3eda58e490d29
+[2016-04-21 02:53 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Paypal-Debug-Id: d48f3c555c9ed
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: phx-origin-www-2.paypal.com
+Date: Thu, 21 Apr 2016 06:53:20 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=mchVVtmIWhvWgsaK5i9BggF_GdEcE5DZbfdnYwnb_Kio-Sh0HClnysPWQWJv_f8qZulwHK1dUzZXlzJTBUtXsrEZyte7RboW7WYLW9jf9SpaRgr7NtOFG44xySADkNseRSKt_DliFSJlKmF-NWrIS8pDEBeYEs2XobiCXX15BSogZtnDXBGt0pxQoWJwfRldQxIjd7eqeiLPRpHTc6l3HrKv0CATGDWyX8KjUjtjItpuu4IJt9JjpZPJsLsk_O6T-IOyRZLg2tAfOrpU6Cy4k-HXBwlwIKYFkGZGhSBuZ5299_RvT-TcoP0j-rUdn5lzMhNyYrPLOp6ADuWXCmYS6byD-Z8QSoPJhlOsHTGz4zqqoL7ufWVUi2-9X0Lq5Oe3kfqNzE8Fxo5j6IiqxIZ-3Yy8YEsA6dqr-RPgq7K4YmeiA8IKk-Id3nTWj28; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sun, 19-Apr-2026 06:53:20 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sat, 21-Apr-2018 06:53:20 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=name%3DLIVE3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3765966935%26HTTP_X_PP_AZ_LOCATOR%3D; Expires=Thu, 21 Apr 2016 07:23:20 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.190.9.199.1461221600379227; path=/; expires=Sat, 14-Apr-46 06:53:20 GMT
+Set-Cookie: AKDC=phx-origin-www-2.paypal.com; expires=Thu, 21-Apr-2016 07:23:20 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2016-04-21 02:53 America/New_York] Verified IPN: cmd=_notify-validate&mc_gross=-25.59&protection_eligibility=Ineligible&item_number1=&payer_id=WFBLXSLQLMT5S&payment_date=23%3A53%3A10+Apr+20%2C+2016+PDT&payment_status=Refunded&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=Hai+Charles&mc_fee=-0.74&notify_version=3.8&reason_code=buyer_complaint&custom=&business=love%40scuvsa.org&mc_handling1=0.00&verify_sign=A9dADuYwvEjnZFZR-7rNxIVnbQoAATyY64bicMjGQm69lXmi6Bq34ucS&payer_email=charlestran.h%40gmail.com&mc_shipping1=0.00&tax1=0.00&parent_txn_id=8GL0460800564622C&btn_id1=113392694&txn_id=03S44479PJ1489034&payment_type=instant&last_name=Tran&item_name1=UPROOTED+Ticket&receiver_email=love%40scuvsa.org&payment_fee=-0.74&quantity1=3&receiver_id=XKPSG5MENRTD2&mc_gross_1=25.59&mc_currency=USD&residence_country=US&transaction_subject=&payment_gross=-25.59&ipn_track_id=3eda58e490d29 
+[2016-04-21 22:34 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 875
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=17.06&protection_eligibility=Ineligible&item_number1=&payer_id=HWD87PVW55Q66&tax=0.00&payment_date=19%3A34%3A49+Apr+21%2C+2016+PDT&payment_status=Completed&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=Pauline&mc_fee=0.79&notify_version=3.8&custom=&payer_status=unverified&business=love%40scuvsa.org&num_cart_items=1&mc_handling1=0.00&verify_sign=AHMd-GE2ztEso.Y5vSjsLk167rjzAVG9.x0mRM0npZIZQ-DgdzvLnae9&payer_email=ppnguyen%40scu.edu&mc_shipping1=0.00&tax1=0.00&btn_id1=113392694&txn_id=4UU36861RA229204A&payment_type=instant&last_name=Nguyen&item_name1=UPROOTED+Ticket&receiver_email=love%40scuvsa.org&payment_fee=0.79&quantity1=2&receiver_id=XKPSG5MENRTD2&txn_type=cart&mc_gross_1=17.06&mc_currency=USD&residence_country=US&receipt_id=1168-1289-9024-8234&transaction_subject=&payment_gross=17.06&ipn_track_id=310506fc63934
+[2016-04-21 22:34 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Paypal-Debug-Id: b49e6c12145c
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-b-origin-www-2.paypal.com
+Date: Fri, 22 Apr 2016 02:35:00 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=CDVo8mw4XwbW9DH5HjSIVWckySyTYgH14gC_T44sWssKmFzNSXQI1UUQi2IdfTVwnzAvLt0l234n_BxXIfwg25bVWXLHDLySNWIc5kfH7LOJkr512SZB-7C7hGM79HO2Mj25rnligP02ew87t07WMcNqxg9k0zY7HA5wqi_Umzc1cuhImcDgDcyQQUCrvbaAHP4vwAWHe1eE4YvKGSH38BawwPT_qBZ5uCGlIuaRkIQVP0E4C9WRbcn5KE94QCP9MfyWK9P2__M6zXxxAiiT6Li5oFEmJgi8y19IYpUpBq0v0phCVDXAHaBeCcyBmeShBJ4qXZwe1g1-yJxi1RNeV0a0dbcPvMDpvVJKGosT0vT6gCFX5bcVf7MnUVKDV-QzAXAgBphBr3uFfIpdBBDefVdn7gHrmoQMCUXjtF4O5NK9V7QniWppOmqafYu; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 20-Apr-2026 02:35:00 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 22-Apr-2018 02:35:00 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=name%3DLIVE6.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3566016855%26HTTP_X_PP_AZ_LOCATOR%3D; Expires=Fri, 22 Apr 2016 03:05:00 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: AKDC=slc-b-origin-www-2.paypal.com; expires=Fri, 22-Apr-2016 03:05:00 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2016-04-21 22:34 America/New_York] Verified IPN: cmd=_notify-validate&mc_gross=17.06&protection_eligibility=Ineligible&item_number1=&payer_id=HWD87PVW55Q66&tax=0.00&payment_date=19%3A34%3A49+Apr+21%2C+2016+PDT&payment_status=Completed&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=Pauline&mc_fee=0.79&notify_version=3.8&custom=&payer_status=unverified&business=love%40scuvsa.org&num_cart_items=1&mc_handling1=0.00&verify_sign=AHMd-GE2ztEso.Y5vSjsLk167rjzAVG9.x0mRM0npZIZQ-DgdzvLnae9&payer_email=ppnguyen%40scu.edu&mc_shipping1=0.00&tax1=0.00&btn_id1=113392694&txn_id=4UU36861RA229204A&payment_type=instant&last_name=Nguyen&item_name1=UPROOTED+Ticket&receiver_email=love%40scuvsa.org&payment_fee=0.79&quantity1=2&receiver_id=XKPSG5MENRTD2&txn_type=cart&mc_gross_1=17.06&mc_currency=USD&residence_country=US&receipt_id=1168-1289-9024-8234&transaction_subject=&payment_gross=17.06&ipn_track_id=310506fc63934 
+[2016-04-22 13:33 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 843
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=76.77&protection_eligibility=Ineligible&item_number1=&payer_id=FA43KH55R5FAG&tax=0.00&payment_date=10%3A33%3A46+Apr+22%2C+2016+PDT&payment_status=Completed&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=My&mc_fee=2.53&notify_version=3.8&custom=&payer_status=unverified&business=love%40scuvsa.org&num_cart_items=1&mc_handling1=0.00&verify_sign=AKCaSOlWBblU-4Gp7b8aMRxz.4kXAxEwe5WAy.BG7sWOvC1TAWsdXTB1&payer_email=mimi.pham102%40gmail.com&mc_shipping1=0.00&tax1=0.00&btn_id1=113392694&txn_id=1Y71275660458482S&payment_type=instant&last_name=Pham&item_name1=UPROOTED+Ticket&receiver_email=love%40scuvsa.org&payment_fee=2.53&quantity1=9&receiver_id=XKPSG5MENRTD2&txn_type=cart&mc_gross_1=76.77&mc_currency=USD&residence_country=US&transaction_subject=&payment_gross=76.77&ipn_track_id=8f42dbbb5a7c4
+[2016-04-22 13:33 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Paypal-Debug-Id: c5c3372b476fa
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-a-origin-www-1.paypal.com
+Date: Fri, 22 Apr 2016 17:33:59 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=5v-bn4hl6W0TNXGmuGuJje6OBIgCSFc7J3lpyhli21VRK7JXn7yCKVN6wHouOFQlAHGGRvr4T3HTcHb0J1r-jgW4DCq8nTf5bIUKphOkUXAO9Al7lfJ2LPmoR-sOgs264jIkJhgquKxCbNIkDbYBpZKllaepykpX3T6-Wy-L_CEpT6Z6Tji3SAcYxIfNSVZdHvihGfg4XCDQlNhUZHi8Sspx7bKi69DYidv5m1flvn5NVPBgkJlQ5WMkwSpcm6b_Tx3C9gx3LzlPMXTEvUzTKi9WrbEzUG47mvRXczVmXSuZQaJ-UvNP18rChz_-6_pe3SnVgufjJYXOgfdO4J2KEVaHXgsRl9W3AwW__Q4N1FlJtuk1YxmS_BUpYS0MwYNHXkH2s4r-pDBiVNONsLFP6Wh-xpBtmGqdhbpHbHCGr3r8KvNUlDD0-Ug5Zfy; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 20-Apr-2026 17:33:59 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 22-Apr-2018 17:33:59 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2271222359%26HTTP_X_PP_AZ_LOCATOR%3D; Expires=Fri, 22 Apr 2016 18:03:59 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: AKDC=slc-a-origin-www-1.paypal.com; expires=Fri, 22-Apr-2016 18:03:59 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2016-04-22 13:34 America/New_York] Verified IPN: cmd=_notify-validate&mc_gross=76.77&protection_eligibility=Ineligible&item_number1=&payer_id=FA43KH55R5FAG&tax=0.00&payment_date=10%3A33%3A46+Apr+22%2C+2016+PDT&payment_status=Completed&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=My&mc_fee=2.53&notify_version=3.8&custom=&payer_status=unverified&business=love%40scuvsa.org&num_cart_items=1&mc_handling1=0.00&verify_sign=AKCaSOlWBblU-4Gp7b8aMRxz.4kXAxEwe5WAy.BG7sWOvC1TAWsdXTB1&payer_email=mimi.pham102%40gmail.com&mc_shipping1=0.00&tax1=0.00&btn_id1=113392694&txn_id=1Y71275660458482S&payment_type=instant&last_name=Pham&item_name1=UPROOTED+Ticket&receiver_email=love%40scuvsa.org&payment_fee=2.53&quantity1=9&receiver_id=XKPSG5MENRTD2&txn_type=cart&mc_gross_1=76.77&mc_currency=USD&residence_country=US&transaction_subject=&payment_gross=76.77&ipn_track_id=8f42dbbb5a7c4 
+[2016-04-23 13:38 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 839
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=8.53&protection_eligibility=Ineligible&item_number1=&payer_id=DLQKKURN8WNX2&tax=0.00&payment_date=10%3A38%3A04+Apr+23%2C+2016+PDT&payment_status=Completed&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=Ross&mc_fee=0.55&notify_version=3.8&custom=&payer_status=verified&business=love%40scuvsa.org&num_cart_items=1&mc_handling1=0.00&verify_sign=A70e6cpf7IK0P-IhSe5XVDvtWYOsAJRHyKT9Cnm6qG8QTdlFEPDl04.i&payer_email=rdm747%40hotmail.com&mc_shipping1=0.00&tax1=0.00&btn_id1=113392694&txn_id=8CS818499L493122K&payment_type=instant&last_name=Martinez&item_name1=UPROOTED+Ticket&receiver_email=love%40scuvsa.org&payment_fee=0.55&quantity1=1&receiver_id=XKPSG5MENRTD2&txn_type=cart&mc_gross_1=8.53&mc_currency=USD&residence_country=US&transaction_subject=&payment_gross=8.53&ipn_track_id=3854550e8523
+[2016-04-23 13:38 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Paypal-Debug-Id: b379ddfb6f6aa
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: phx-origin-www-1.paypal.com
+Date: Sat, 23 Apr 2016 17:38:16 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=QBHGhU9S2SNLLnCYZdZLa1_CBiq1ulJd9oMwDQ5U8rm0B4yizBUr6xLy1AiFaQ4vv_wRbr9fh0G_sQwwWbH43i1S7FIXLcLRxbcxhvErtG-qOMDq1RZxnzVtAVsJY96dYMDNgLiBgWufAs-ATFcV5JhBfj7qXlKwtc0XTaY-GIe9oy4-qzRYDB8qweChlTGEPYmRBQh6LbraAetyMbqgVy6xxSwSBBvah8E2a4wbhHVfgsaNdJlPyjug4isQ8AJjFXjtnSeZMHwDL0HpgZ1YGRdWp-RhmnZMxw_4sEZNGj22Sidp37MC7MJ3sb5e2bEBCuwNHgc-tnguMTnIcPtAu89fWWRDmU-c0eMjy9D24v_MFH8VzGmEJpGeHJ3dPdu6cP8q--5zC20TBmCeD3TCSzCaz_8whZE1R-LMsAfjVjJTn79b3IjeP-EdyPy; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 21-Apr-2026 17:38:16 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 23-Apr-2018 17:38:16 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=name%3DLIVE3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D145955671%26HTTP_X_PP_AZ_LOCATOR%3D; Expires=Sat, 23 Apr 2016 18:08:16 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.190.8.151.1461433096456194; path=/; expires=Mon, 16-Apr-46 17:38:16 GMT
+Set-Cookie: AKDC=phx-origin-www-1.paypal.com; expires=Sat, 23-Apr-2016 18:08:16 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2016-04-23 13:38 America/New_York] Verified IPN: cmd=_notify-validate&mc_gross=8.53&protection_eligibility=Ineligible&item_number1=&payer_id=DLQKKURN8WNX2&tax=0.00&payment_date=10%3A38%3A04+Apr+23%2C+2016+PDT&payment_status=Completed&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=Ross&mc_fee=0.55&notify_version=3.8&custom=&payer_status=verified&business=love%40scuvsa.org&num_cart_items=1&mc_handling1=0.00&verify_sign=A70e6cpf7IK0P-IhSe5XVDvtWYOsAJRHyKT9Cnm6qG8QTdlFEPDl04.i&payer_email=rdm747%40hotmail.com&mc_shipping1=0.00&tax1=0.00&btn_id1=113392694&txn_id=8CS818499L493122K&payment_type=instant&last_name=Martinez&item_name1=UPROOTED+Ticket&receiver_email=love%40scuvsa.org&payment_fee=0.55&quantity1=1&receiver_id=XKPSG5MENRTD2&txn_type=cart&mc_gross_1=8.53&mc_currency=USD&residence_country=US&transaction_subject=&payment_gross=8.53&ipn_track_id=3854550e8523 
+[2016-04-23 16:28 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 884
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=8.53&protection_eligibility=Ineligible&item_number1=&payer_id=JDEYRTEWU9AXN&tax=0.00&payment_date=13%3A28%3A20+Apr+23%2C+2016+PDT&payment_status=Completed&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=Matthew&mc_fee=0.55&notify_version=3.8&custom=&payer_status=unverified&business=love%40scuvsa.org&num_cart_items=1&mc_handling1=0.00&verify_sign=A7g771vcNWorTkfxbAZBFkjRcD4OAXob2gQxK2jmR09pyOpjueMMCgKK&payer_email=Matthew.sasaki0796%40gmail.com&mc_shipping1=0.00&tax1=0.00&btn_id1=113392694&txn_id=3AV91591ST7413838&payment_type=instant&last_name=Sasaki&item_name1=UPROOTED+Ticket&receiver_email=love%40scuvsa.org&payment_fee=0.55&quantity1=1&receiver_id=XKPSG5MENRTD2&txn_type=cart&mc_gross_1=8.53&mc_currency=USD&residence_country=US&receipt_id=1192-8075-9795-1296&transaction_subject=&payment_gross=8.53&ipn_track_id=6647361018b17
+[2016-04-23 16:28 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Paypal-Debug-Id: 457b28874a16b
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-b-origin-www-2.paypal.com
+Date: Sat, 23 Apr 2016 20:28:25 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=U5ObhnmW4IDwZNbq_eemzUMvfxOsTSa91p708MYJLIw5DbozOEmntDHduHa9Pj-n1x-ZaKPRZC17EuP62ll5prvlsqHrQ_of4zF2H-6Rxff35mEAX6lK585haVhzSScdlZufq-QNeAJB54mTPHyTioX23oAMclSTcCEqsxoo4nBNJEjQww7-PT_xC61KGr_1bkU2JKvH2lS4yELLf5NzhZ2QvyQkeUDNfsZ7JWJiG8V0lCD8mM0ZYn5LTvFapqMHqiBes_CRwgq9n0brtaXFTCzjKlxCNoCsxW5qLdblGVpWL_GrapYvClanOK6uPvtH5dUzHh4QLFbbhl34Rr3vL7IIxyw4KoChlWz9tyDSC09ZE5j-wY__foiZpMXYQPFuFgAjDKbZI4RZdqiUQT6N5Up1G97F7Iai_TA7HIsOLjAIXh_EuBlVEIAd0XW; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 21-Apr-2026 20:28:25 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 23-Apr-2018 20:28:25 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=name%3DLIVE6.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3923385175%26HTTP_X_PP_AZ_LOCATOR%3D; Expires=Sat, 23 Apr 2016 20:58:25 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: AKDC=slc-b-origin-www-2.paypal.com; expires=Sat, 23-Apr-2016 20:58:25 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2016-04-23 16:28 America/New_York] Verified IPN: cmd=_notify-validate&mc_gross=8.53&protection_eligibility=Ineligible&item_number1=&payer_id=JDEYRTEWU9AXN&tax=0.00&payment_date=13%3A28%3A20+Apr+23%2C+2016+PDT&payment_status=Completed&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=Matthew&mc_fee=0.55&notify_version=3.8&custom=&payer_status=unverified&business=love%40scuvsa.org&num_cart_items=1&mc_handling1=0.00&verify_sign=A7g771vcNWorTkfxbAZBFkjRcD4OAXob2gQxK2jmR09pyOpjueMMCgKK&payer_email=Matthew.sasaki0796%40gmail.com&mc_shipping1=0.00&tax1=0.00&btn_id1=113392694&txn_id=3AV91591ST7413838&payment_type=instant&last_name=Sasaki&item_name1=UPROOTED+Ticket&receiver_email=love%40scuvsa.org&payment_fee=0.55&quantity1=1&receiver_id=XKPSG5MENRTD2&txn_type=cart&mc_gross_1=8.53&mc_currency=USD&residence_country=US&receipt_id=1192-8075-9795-1296&transaction_subject=&payment_gross=8.53&ipn_track_id=6647361018b17 
+[2016-04-23 19:13 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 845
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=17.06&protection_eligibility=Ineligible&item_number1=&payer_id=5HAE8B4RKREJJ&tax=0.00&payment_date=16%3A13%3A46+Apr+23%2C+2016+PDT&payment_status=Completed&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=michelle&mc_fee=0.79&notify_version=3.8&custom=&payer_status=verified&business=love%40scuvsa.org&num_cart_items=1&mc_handling1=0.00&verify_sign=APgiXGyNKmISRWx-0xnMhpadR6s0AVt20lHiLhshvtQYEmMrLQmAxRZz&payer_email=michelleun%40att.net&mc_shipping1=0.00&tax1=0.00&btn_id1=113392694&txn_id=7CL668235U405105D&payment_type=instant&last_name=nguyen&item_name1=UPROOTED+Ticket&receiver_email=love%40scuvsa.org&payment_fee=0.79&quantity1=2&receiver_id=XKPSG5MENRTD2&txn_type=cart&mc_gross_1=17.06&mc_currency=USD&residence_country=US&transaction_subject=&payment_gross=17.06&ipn_track_id=14f33f6ce04ca
+[2016-04-23 19:13 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Paypal-Debug-Id: f5d072234d6e5
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-b-origin-www-2.paypal.com
+Date: Sat, 23 Apr 2016 23:13:56 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=H2vO6vYGKgIxv26dxf4WMa88MQfkBRj3fXugW_HIBnJ13t_t5s8bqt9Ceaj1FRi0UFY01aRtAIDXbrBVvTXUV_6lNEDOo5QhVymDzenhXhm_8hX88SFu-jVeCmQVR4bO3fY6TmozrtaQxv_hLGqCtBXUCZDdKe36ooWFktKWQcja5naHnC4s42YOrRDO-NtIEq5owaoyEyiWwY-EukLN5G7bJ9mTbUSqptgQqmXX9BmwbRguSQoMMkGuXlm6JQfNeF9b3oD_S-mREm8zu3pJvwRAmqnrarVZgND1od4zG7tPrV30rM43fFb-PwDjQsexpk28PskfdeanckM2JOrtN9o74alkTiahF3vjGy-VK2PAjgXN2rIQS2MN9oOLgvbhbBwwFjFuk0Fl0Qgmkcz03tYJF_w7uf8sVro6jcyGTwvHoIaqftqQ3uxI4O8; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 21-Apr-2026 23:13:56 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 23-Apr-2018 23:13:56 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=name%3DLIVE6.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3019971671%26HTTP_X_PP_AZ_LOCATOR%3D; Expires=Sat, 23 Apr 2016 23:43:56 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: AKDC=slc-b-origin-www-2.paypal.com; expires=Sat, 23-Apr-2016 23:43:56 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2016-04-23 19:13 America/New_York] Verified IPN: cmd=_notify-validate&mc_gross=17.06&protection_eligibility=Ineligible&item_number1=&payer_id=5HAE8B4RKREJJ&tax=0.00&payment_date=16%3A13%3A46+Apr+23%2C+2016+PDT&payment_status=Completed&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=michelle&mc_fee=0.79&notify_version=3.8&custom=&payer_status=verified&business=love%40scuvsa.org&num_cart_items=1&mc_handling1=0.00&verify_sign=APgiXGyNKmISRWx-0xnMhpadR6s0AVt20lHiLhshvtQYEmMrLQmAxRZz&payer_email=michelleun%40att.net&mc_shipping1=0.00&tax1=0.00&btn_id1=113392694&txn_id=7CL668235U405105D&payment_type=instant&last_name=nguyen&item_name1=UPROOTED+Ticket&receiver_email=love%40scuvsa.org&payment_fee=0.79&quantity1=2&receiver_id=XKPSG5MENRTD2&txn_type=cart&mc_gross_1=17.06&mc_currency=USD&residence_country=US&transaction_subject=&payment_gross=17.06&ipn_track_id=14f33f6ce04ca 
+[2016-04-23 19:44 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 838
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=8.53&protection_eligibility=Ineligible&item_number1=&payer_id=K3HTFNEAL9WDA&tax=0.00&payment_date=16%3A44%3A06+Apr+23%2C+2016+PDT&payment_status=Completed&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=Julie&mc_fee=0.55&notify_version=3.8&custom=&payer_status=verified&business=love%40scuvsa.org&num_cart_items=1&mc_handling1=0.00&verify_sign=Ak-aHtWJ30oilmdmmmoTt7u251hsA3Zwu4QxPBsIXkjkYzmeO8ExenBl&payer_email=jdang1053%40gmail.com&mc_shipping1=0.00&tax1=0.00&btn_id1=113392694&txn_id=62F00074KX785424V&payment_type=instant&last_name=Dang&item_name1=UPROOTED+Ticket&receiver_email=love%40scuvsa.org&payment_fee=0.55&quantity1=1&receiver_id=XKPSG5MENRTD2&txn_type=cart&mc_gross_1=8.53&mc_currency=USD&residence_country=US&transaction_subject=&payment_gross=8.53&ipn_track_id=9337167e29683
+[2016-04-23 19:44 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Paypal-Debug-Id: 215b1b7534059
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: phx-origin-www-2.paypal.com
+Date: Sat, 23 Apr 2016 23:44:17 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=TUMWkvt2QoDGMPgnF1pvrOxLwXDIsExVMEirLwsqODtYPYX-VqzUX-N8En1nICTB7S03UxQf_izgiKNCDprIoejYQKTE-2dKLkGkbKc_nxuVlcp6EixaYOLeaTDZTsc356NrMg6ziLG8fSx6_O1Jet_kpAFiVaAW8mb5qbNB43E2dlkMuaKDeyv0mmKYyU4bTVW_kwWs585xkByt4u7QMEHo_s08f48IECIDdO7IduqM2PqR5uSjqtgsm4fQDr1VZ1HF06wuWGHpvOTyuI_qj-DepgsFesbAkC_FYPgEXS7xek-nxyDtr09KAmHviHUvS5CFfp0AcXtsczBq7luApCckLInZxOJgu-QriKTEZSIAWi5RCXwvWQ32QD4S1_Qu_GHjLaBW3TCiShSdwVOBcmTToUrB16QCs1i5FzV0mcFHD13RaQtsAhVGoju; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 21-Apr-2026 23:44:17 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 23-Apr-2018 23:44:17 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=name%3DLIVE3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3506969687%26HTTP_X_PP_AZ_LOCATOR%3D; Expires=Sun, 24 Apr 2016 00:14:17 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.190.9.195.1461455057212844; path=/; expires=Mon, 16-Apr-46 23:44:17 GMT
+Set-Cookie: AKDC=phx-origin-www-2.paypal.com; expires=Sun, 24-Apr-2016 00:14:17 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2016-04-23 19:44 America/New_York] Verified IPN: cmd=_notify-validate&mc_gross=8.53&protection_eligibility=Ineligible&item_number1=&payer_id=K3HTFNEAL9WDA&tax=0.00&payment_date=16%3A44%3A06+Apr+23%2C+2016+PDT&payment_status=Completed&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=Julie&mc_fee=0.55&notify_version=3.8&custom=&payer_status=verified&business=love%40scuvsa.org&num_cart_items=1&mc_handling1=0.00&verify_sign=Ak-aHtWJ30oilmdmmmoTt7u251hsA3Zwu4QxPBsIXkjkYzmeO8ExenBl&payer_email=jdang1053%40gmail.com&mc_shipping1=0.00&tax1=0.00&btn_id1=113392694&txn_id=62F00074KX785424V&payment_type=instant&last_name=Dang&item_name1=UPROOTED+Ticket&receiver_email=love%40scuvsa.org&payment_fee=0.55&quantity1=1&receiver_id=XKPSG5MENRTD2&txn_type=cart&mc_gross_1=8.53&mc_currency=USD&residence_country=US&transaction_subject=&payment_gross=8.53&ipn_track_id=9337167e29683 
+[2016-04-23 21:20 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 869
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=8.53&protection_eligibility=Ineligible&item_number1=&payer_id=C33V4B9E2PWGS&tax=0.00&payment_date=18%3A20%3A38+Apr+23%2C+2016+PDT&payment_status=Completed&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=Steven&mc_fee=0.55&notify_version=3.8&custom=&payer_status=unverified&business=love%40scuvsa.org&num_cart_items=1&mc_handling1=0.00&verify_sign=AaK0VfSdmMi7axS8iB.-JrQ9BVoTAvhC4MllDh.dpozWEM7JKe1skX93&payer_email=Sparks1%40scu.edu&mc_shipping1=0.00&tax1=0.00&btn_id1=113392694&txn_id=75A69107KT673971M&payment_type=instant&last_name=Parks&item_name1=UPROOTED+Ticket&receiver_email=love%40scuvsa.org&payment_fee=0.55&quantity1=1&receiver_id=XKPSG5MENRTD2&txn_type=cart&mc_gross_1=8.53&mc_currency=USD&residence_country=US&receipt_id=5135-9430-3365-7964&transaction_subject=&payment_gross=8.53&ipn_track_id=a4015503bcf1c
+[2016-04-23 21:20 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Paypal-Debug-Id: 410e1a593da92
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-b-origin-www-2.paypal.com
+Date: Sun, 24 Apr 2016 01:20:43 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=p_1SL8cGgnD8HAqeC1mLifVFAvMQ9ZBYniUGXSQjAMhRplOPRXl_9MaZTcG6ABN4oBx2Fg06KnSev21WWg78jDFBfAxrjhqkF2oI9knykfbyTHthLvXNVaHOF_VlYyqSkSH0TfdL3r9cyid4HwCgAvwgMOxo_xGlHV_yveZ-ed2kPl38tqFYx2a2kXq_ocI4MGIFcY17-817bUBAUDaT-wC_SFVa757Vc6475jpbIsuSr1hAVwD3tJEKv2n1ue6CBZztdx80XmCe10OHAK9kBeGERSzG5z5FDMipQq-SHaw2rlci312F6IvlJj5gz8gFUFSSsjOq5nTWMotMLFSlPa3kan_Y-v272dnhOptwHLfVnSL2I5VRmkhbzeabe2kk0fJYCEWrEXD75Vk2rB1BJbhC7pe08YpmQuRBS24gMZsi1B3NcOZbDq1Lq90; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Wed, 22-Apr-2026 01:20:43 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Tue, 24-Apr-2018 01:20:43 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=name%3DLIVE6.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1797200983%26HTTP_X_PP_AZ_LOCATOR%3D; Expires=Sun, 24 Apr 2016 01:50:43 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: AKDC=slc-b-origin-www-2.paypal.com; expires=Sun, 24-Apr-2016 01:50:43 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2016-04-23 21:20 America/New_York] Verified IPN: cmd=_notify-validate&mc_gross=8.53&protection_eligibility=Ineligible&item_number1=&payer_id=C33V4B9E2PWGS&tax=0.00&payment_date=18%3A20%3A38+Apr+23%2C+2016+PDT&payment_status=Completed&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=Steven&mc_fee=0.55&notify_version=3.8&custom=&payer_status=unverified&business=love%40scuvsa.org&num_cart_items=1&mc_handling1=0.00&verify_sign=AaK0VfSdmMi7axS8iB.-JrQ9BVoTAvhC4MllDh.dpozWEM7JKe1skX93&payer_email=Sparks1%40scu.edu&mc_shipping1=0.00&tax1=0.00&btn_id1=113392694&txn_id=75A69107KT673971M&payment_type=instant&last_name=Parks&item_name1=UPROOTED+Ticket&receiver_email=love%40scuvsa.org&payment_fee=0.55&quantity1=1&receiver_id=XKPSG5MENRTD2&txn_type=cart&mc_gross_1=8.53&mc_currency=USD&residence_country=US&receipt_id=5135-9430-3365-7964&transaction_subject=&payment_gross=8.53&ipn_track_id=a4015503bcf1c 
+[2016-08-28 20:25 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 631
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&transaction_subject=&txn_type=send_money&payment_date=17%3A25%3A28+Aug+28%2C+2016+PDT&last_name=Chua&residence_country=CA&payment_gross=100.00&mc_currency=USD&business=jonfortescue%40gmail.com&payment_type=instant&protection_eligibility=Ineligible&verify_sign=ASgyWHsiaj3fup.uLPDoZWeTrvvCA.YH3waenlngp67Zqk8jX0WyTv8Y&payer_status=verified&payer_email=jay_chua%40live.ca&txn_id=3RV416299B824143L&receiver_email=jonfortescue%40gmail.com&first_name=Jerusha&payer_id=JUMLKWE459SJ6&receiver_id=WXGSVTCJR8UY4&payment_status=Completed&mc_gross=100.00&charset=windows-1252&notify_version=3.8&ipn_track_id=cea8cce83a6ad
+[2016-08-28 20:25 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+HTTP_X_PP_AZ_LOCATOR: dcg12.slc
+Paypal-Debug-Id: a80368252a326
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: phx-origin-www-1.paypal.com
+Date: Mon, 29 Aug 2016 00:25:39 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=gUAD6HzPEed21eVX61EDzkIrJf7XSo5mJQK55EsonEOFl6e2Pn2bDbklyiYw8QJQvuKPLNNkE7B1cwAc4WV0EMXiqLLIoo-Gi9xlESsuYqFw9wl_zWstA3KzKt_2Y8Rx4DFx3LvzBu6k8oOvrSQghzmhIUks5kuOlud9Lfw08xpC6pUqF7r3t61BTUf8hQb6ap806VOuMdc9ezTGyqdCcgttJcD1OsgWeTGBlyBZjHmMeSTdc-Xray54Lqrk43nKW4UM0wDPEcYl163qQh8610YwG7HJhcIfSxGGXMQKeDJ0Dt4zjCpqLCUI24L_VKtXZrLL1qZvDlxxpJj3AkMFarX319_FDZjYixybhtVDQUeG80oOZqG3bPbDBB42V4JEdXLjuc7JLpDEZS0fXzAl3BKC7stMyCYsbDH8sWETx3AGHbbQ5AS6CEVBwgi; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 27-Aug-2026 00:25:39 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 29-Aug-2018 00:25:39 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=name%3DLIVE3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D58835799%26HTTP_X_PP_AZ_LOCATOR%3Ddcg12.slc; Expires=Mon, 29 Aug 2016 00:55:39 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: AKDC=phx-origin-www-1.paypal.com; expires=Mon, 29-Aug-2016 00:55:39 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2016-08-28 20:25 America/New_York] Verified IPN: cmd=_notify-validate&transaction_subject=&txn_type=send_money&payment_date=17%3A25%3A28+Aug+28%2C+2016+PDT&last_name=Chua&residence_country=CA&payment_gross=100.00&mc_currency=USD&business=jonfortescue%40gmail.com&payment_type=instant&protection_eligibility=Ineligible&verify_sign=ASgyWHsiaj3fup.uLPDoZWeTrvvCA.YH3waenlngp67Zqk8jX0WyTv8Y&payer_status=verified&payer_email=jay_chua%40live.ca&txn_id=3RV416299B824143L&receiver_email=jonfortescue%40gmail.com&first_name=Jerusha&payer_id=JUMLKWE459SJ6&receiver_id=WXGSVTCJR8UY4&payment_status=Completed&mc_gross=100.00&charset=windows-1252&notify_version=3.8&ipn_track_id=cea8cce83a6ad 
+[2017-01-28 17:04 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1270
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=11.39&protection_eligibility=Eligible&for_auction=true&address_status=confirmed&item_number1=322396551159&tax=0.00&payer_id=3SPZYVWN79VZ4&address_street=2501+W+Zia+Rd+Apt.+4201&payment_date=14%3A04%3A37+Jan+28%2C+2017+PST&payment_status=Completed&charset=windows-1252&address_zip=87505&mc_shipping=3.39&first_name=Maxwell&mc_fee=0.63&auction_buyer_id=maxkalyani&address_country_code=US&address_name=Maxwell+Kalyani&notify_version=3.8&custom=EBAY_EMSCX0000700825096114&payer_status=unverified&business=jonfortescue%40gmail.com&address_country=United+States&num_cart_items=1&address_city=Santa+Fe&verify_sign=AC7aikQTUycaKhGaSWgR0VkDOsrQAa-8N1RXN8eN41.U2YkgTvgVaaD5&payer_email=max.kalyani%40gmail.com&txn_id=97L75381F3991754X&payment_type=instant&last_name=Kalyani&address_state=NM&item_name1=The+Elder+Scrolls+Online+Imperial+Edition+for+PS4+w%2F+Steel+Case&receiver_email=jonfortescue%40gmail.com&payment_fee=0.63&quantity1=1&receiver_id=WXGSVTCJR8UY4&insurance_amount=0.00&txn_type=cart&item_name=The+Elder+Scrolls+Online+Imperial+Edition+for+PS4+w%2F+Steel+Case&mc_gross_1=8.00&mc_currency=USD&item_number=322396551159&residence_country=US&receipt_id=0493-2880-0680-9094&transaction_subject=&payment_gross=11.39&ipn_track_id=8d597c6149fc
+[2017-01-28 17:04 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+HTTP_X_PP_AZ_LOCATOR: dcg11.slc
+Paypal-Debug-Id: 9b7c6ec679c44
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: ccg11-origin-www-2.paypal.com
+Date: Sat, 28 Jan 2017 22:04:49 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=AgM1O2ven2uQg76YO1UqoOdy8Lm_SCRfKVtFUAe_P68ffSZQUrdJVyKybCSoweAqd3WnnXo8LyNbBu2U2bQNbRQhYBchZOU8Pzfc1xQdwJgidxHuqoDXOiWcSo-EaUjIqr1Tjme_z2iWiTH24hjVt-szQuVqTPrirXkFmLCA5pwFPpZd87fAAujX4_9PGiHeO3Bz53GYk5TZOfJw8hur6zGzKcb5ohhWWBwpmQqs28Sc3WIwXBvAMWAPNLBWgL-WGmUq8GDikXYeSouJOQANoZPxzDYYu4iJkbFhvA-LPNn6dTE6S8e6hieJBnYQxEbA0MQhvrIWfns0LaOYKl-hrnrJHwSBnlmJBr3olGlgayIZECpyzPkhWn01yuPFMVFIOUnYhV4waBq2LwxJr6DPx2iqf-fLLHCO99v2SeEEB11IYaYzATI0oIjXFvG; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 26-Jan-2027 22:04:49 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 28-Jan-2019 22:04:49 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2165673304%26HTTP_X_PP_AZ_LOCATOR%3Ddcg11.slc; Expires=Sat, 28 Jan 2017 22:34:49 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: AKDC=ccg11-origin-www-2.paypal.com; expires=Sat, 28-Jan-2017 22:34:49 GMT; path=/; secure
+Set-Cookie: akavpau_ppsd=1485641689~id=d0ec86037f450b71e5f43ff4cfa742b2; path=/
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2017-01-28 17:04 America/New_York] Verified IPN: cmd=_notify-validate&mc_gross=11.39&protection_eligibility=Eligible&for_auction=true&address_status=confirmed&item_number1=322396551159&tax=0.00&payer_id=3SPZYVWN79VZ4&address_street=2501+W+Zia+Rd+Apt.+4201&payment_date=14%3A04%3A37+Jan+28%2C+2017+PST&payment_status=Completed&charset=windows-1252&address_zip=87505&mc_shipping=3.39&first_name=Maxwell&mc_fee=0.63&auction_buyer_id=maxkalyani&address_country_code=US&address_name=Maxwell+Kalyani&notify_version=3.8&custom=EBAY_EMSCX0000700825096114&payer_status=unverified&business=jonfortescue%40gmail.com&address_country=United+States&num_cart_items=1&address_city=Santa+Fe&verify_sign=AC7aikQTUycaKhGaSWgR0VkDOsrQAa-8N1RXN8eN41.U2YkgTvgVaaD5&payer_email=max.kalyani%40gmail.com&txn_id=97L75381F3991754X&payment_type=instant&last_name=Kalyani&address_state=NM&item_name1=The+Elder+Scrolls+Online+Imperial+Edition+for+PS4+w%2F+Steel+Case&receiver_email=jonfortescue%40gmail.com&payment_fee=0.63&quantity1=1&receiver_id=WXGSVTCJR8UY4&insurance_amount=0.00&txn_type=cart&item_name=The+Elder+Scrolls+Online+Imperial+Edition+for+PS4+w%2F+Steel+Case&mc_gross_1=8.00&mc_currency=USD&item_number=322396551159&residence_country=US&receipt_id=0493-2880-0680-9094&transaction_subject=&payment_gross=11.39&ipn_track_id=8d597c6149fc 

@@ -1,0 +1,127 @@
+[06-Mar-2017 05:47:13 America/New_York] PHP Notice:  Undefined index: paid in /home/jonfxlja/public_html/scuvsa.org/show/selltickets.php on line 40
+[06-Mar-2017 05:47:13 America/New_York] PHP Notice:  Undefined index: bd in /home/jonfxlja/public_html/scuvsa.org/show/selltickets.php on line 41
+[06-Mar-2017 05:49:32 America/New_York] PHP Notice:  Undefined index: paid in /home/jonfxlja/public_html/scuvsa.org/show/selltickets.php on line 40
+[06-Mar-2017 05:49:32 America/New_York] PHP Notice:  Undefined index: bd in /home/jonfxlja/public_html/scuvsa.org/show/selltickets.php on line 41
+[06-Mar-2017 05:49:40 America/New_York] PHP Notice:  Undefined index: paid in /home/jonfxlja/public_html/scuvsa.org/show/selltickets.php on line 40
+[06-Mar-2017 05:49:40 America/New_York] PHP Notice:  Undefined index: bd in /home/jonfxlja/public_html/scuvsa.org/show/selltickets.php on line 41
+[06-Mar-2017 05:52:25 America/New_York] PHP Notice:  Undefined index: bd in /home/jonfxlja/public_html/scuvsa.org/show/selltickets.php on line 41
+[06-Mar-2017 05:55:14 America/New_York] PHP Notice:  Undefined index: bd in /home/jonfxlja/public_html/scuvsa.org/show/selltickets.php on line 41
+[06-Mar-2017 06:02:16 America/New_York] PHP Notice:  Undefined index: bd in /home/jonfxlja/public_html/scuvsa.org/show/selltickets.php on line 41
+[06-Mar-2017 06:02:16 America/New_York] PHP Warning:  file_get_contents(https://show.scuvsa.org/tickets/ticket.php): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ in /home/jonfxlja/public_html/scuvsa.org/show/selltickets.php on line 63
+[06-Mar-2017 06:02:40 America/New_York] PHP Notice:  Undefined index: paid in /home/jonfxlja/public_html/scuvsa.org/show/selltickets.php on line 40
+[06-Mar-2017 06:02:40 America/New_York] PHP Notice:  Undefined index: bd in /home/jonfxlja/public_html/scuvsa.org/show/selltickets.php on line 41
+[06-Mar-2017 06:02:40 America/New_York] PHP Warning:  file_get_contents(https://show.scuvsa.org/tickets/ticket.php): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ in /home/jonfxlja/public_html/scuvsa.org/show/selltickets.php on line 63
+[06-Mar-2017 06:03:32 America/New_York] PHP Notice:  Undefined index: bd in /home/jonfxlja/public_html/scuvsa.org/show/selltickets.php on line 41
+[06-Mar-2017 06:03:32 America/New_York] PHP Warning:  file_get_contents(https://show.scuvsa.org/tickets/ticket.php): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ in /home/jonfxlja/public_html/scuvsa.org/show/selltickets.php on line 63
+[06-Mar-2017 06:04:03 America/New_York] PHP Notice:  Undefined index: bd in /home/jonfxlja/public_html/scuvsa.org/show/selltickets.php on line 41
+[06-Mar-2017 06:04:57 America/New_York] PHP Notice:  Undefined index: bd in /home/jonfxlja/public_html/scuvsa.org/show/selltickets.php on line 41
+[06-Mar-2017 06:04:57 America/New_York] PHP Warning:  file_get_contents(https://show.scuvsa.org/tickets/ticket.php): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ in /home/jonfxlja/public_html/scuvsa.org/show/selltickets.php on line 63
+[06-Mar-2017 06:06:09 America/New_York] PHP Notice:  Undefined index: bd in /home/jonfxlja/public_html/scuvsa.org/show/selltickets.php on line 41
+[06-Mar-2017 06:06:09 America/New_York] PHP Warning:  file_get_contents(https://show.scuvsa.org/tickets/ticket.php): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ in /home/jonfxlja/public_html/scuvsa.org/show/selltickets.php on line 63
+[06-Mar-2017 06:06:36 America/New_York] PHP Notice:  Undefined index: bd in /home/jonfxlja/public_html/scuvsa.org/show/selltickets.php on line 41
+[06-Mar-2017 06:08:56 America/New_York] PHP Notice:  Undefined index: bd in /home/jonfxlja/public_html/scuvsa.org/show/selltickets.php on line 41
+[06-Mar-2017 06:08:56 America/New_York] PHP Warning:  file_get_contents(https://show.scuvsa.org/tickets/ticket.php): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ in /home/jonfxlja/public_html/scuvsa.org/show/selltickets.php on line 63
+[06-Mar-2017 06:13:16 America/New_York] PHP Notice:  Undefined offset: 0 in /home/jonfxlja/public_html/scuvsa.org/show/currenttickets.php on line 85
+[06-Mar-2017 06:13:16 America/New_York] PHP Notice:  Undefined offset: 1 in /home/jonfxlja/public_html/scuvsa.org/show/currenttickets.php on line 85
+[06-Mar-2017 06:13:16 America/New_York] PHP Notice:  Undefined offset: 2 in /home/jonfxlja/public_html/scuvsa.org/show/currenttickets.php on line 85
+[06-Mar-2017 06:13:16 America/New_York] PHP Notice:  Undefined offset: 3 in /home/jonfxlja/public_html/scuvsa.org/show/currenttickets.php on line 85
+[06-Mar-2017 06:13:16 America/New_York] PHP Notice:  Undefined offset: 4 in /home/jonfxlja/public_html/scuvsa.org/show/currenttickets.php on line 85
+[06-Mar-2017 06:13:16 America/New_York] PHP Notice:  Undefined offset: 5 in /home/jonfxlja/public_html/scuvsa.org/show/currenttickets.php on line 85
+[06-Mar-2017 06:13:16 America/New_York] PHP Notice:  Undefined offset: 7 in /home/jonfxlja/public_html/scuvsa.org/show/currenttickets.php on line 85
+[06-Mar-2017 06:13:16 America/New_York] PHP Notice:  Undefined offset: 8 in /home/jonfxlja/public_html/scuvsa.org/show/currenttickets.php on line 85
+[06-Mar-2017 06:13:16 America/New_York] PHP Notice:  Undefined offset: 9 in /home/jonfxlja/public_html/scuvsa.org/show/currenttickets.php on line 85
+[06-Mar-2017 06:13:16 America/New_York] PHP Notice:  Undefined offset: 10 in /home/jonfxlja/public_html/scuvsa.org/show/currenttickets.php on line 85
+[06-Mar-2017 06:13:16 America/New_York] PHP Notice:  Undefined offset: 11 in /home/jonfxlja/public_html/scuvsa.org/show/currenttickets.php on line 85
+[06-Mar-2017 06:13:16 America/New_York] PHP Notice:  Undefined offset: 12 in /home/jonfxlja/public_html/scuvsa.org/show/currenttickets.php on line 85
+[08-Mar-2017 23:17:45 America/New_York] PHP Notice:  Undefined index: bd in /home/jonfxlja/public_html/scuvsa.org/show/selltickets.php on line 41
+[08-Mar-2017 23:19:01 America/New_York] PHP Notice:  Undefined index: bd in /home/jonfxlja/public_html/scuvsa.org/show/selltickets.php on line 41
+[08-Mar-2017 23:20:15 America/New_York] PHP Notice:  Undefined index: bd in /home/jonfxlja/public_html/scuvsa.org/show/selltickets.php on line 41
+[08-Mar-2017 23:23:22 America/New_York] PHP Notice:  Undefined index: bd in /home/jonfxlja/public_html/scuvsa.org/show/selltickets.php on line 41
+[08-Mar-2017 23:24:54 America/New_York] PHP Notice:  Undefined index: bd in /home/jonfxlja/public_html/scuvsa.org/show/selltickets.php on line 41
+[09-Mar-2017 00:18:41 America/New_York] PHP Notice:  Undefined index: bd in /home/jonfxlja/public_html/scuvsa.org/show/selltickets.php on line 41
+[09-Mar-2017 00:19:05 America/New_York] PHP Notice:  Undefined index: bd in /home/jonfxlja/public_html/scuvsa.org/show/selltickets.php on line 41
+[09-Mar-2017 15:34:05 America/New_York] PHP Notice:  Undefined index: bd in /home/jonfxlja/public_html/scuvsa.org/show/selltickets.php on line 41
+[16-Mar-2017 18:53:58 America/New_York] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 46
+[17-Mar-2017 14:45:13 America/New_York] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 46
+[17-Mar-2017 14:45:57 America/New_York] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 46
+[17-Mar-2017 14:46:32 America/New_York] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 46
+[17-Mar-2017 14:46:47 America/New_York] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 46
+[17-Mar-2017 14:46:52 America/New_York] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 46
+[17-Mar-2017 14:46:56 America/New_York] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 46
+[17-Mar-2017 14:47:01 America/New_York] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 46
+[17-Mar-2017 14:48:10 America/New_York] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 46
+[17-Mar-2017 14:48:43 America/New_York] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 46
+[17-Mar-2017 14:51:28 America/New_York] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 45
+[17-Mar-2017 15:08:49 America/New_York] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 26
+[17-Mar-2017 15:10:32 America/New_York] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 34
+[17-Mar-2017 15:25:22 America/New_York] Received a non-POST request
+[17-Mar-2017 15:28:09 America/New_York] PHP Notice:  Use of undefined constant transaction - assumed 'transaction' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 52
+[17-Mar-2017 15:28:09 America/New_York] PHP Notice:  Use of undefined constant tenders - assumed 'tenders' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 52
+[17-Mar-2017 15:28:09 America/New_York] PHP Notice:  Use of undefined constant transaction_id - assumed 'transaction_id' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 52
+[17-Mar-2017 15:28:09 America/New_York] PHP Warning:  Illegal string offset 'transaction_id' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 52
+[17-Mar-2017 15:28:09 America/New_York] PHP Warning:  Illegal string offset 't' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 52
+[17-Mar-2017 15:28:09 America/New_York] PHP Notice:  Undefined property: SquareConnect\Model\ChargeResponse::$t in /home/jonfxlja/public_html/scuvsa.org/show/vendor/square/connect/lib/Model/ChargeResponse.php on line 162
+[17-Mar-2017 15:28:58 America/New_York] PHP Notice:  Use of undefined constant transaction - assumed 'transaction' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 52
+[17-Mar-2017 15:29:44 America/New_York] PHP Notice:  Use of undefined constant transaction - assumed 'transaction' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 52
+[17-Mar-2017 15:29:44 America/New_York] PHP Notice:  Use of undefined constant tenders - assumed 'tenders' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 52
+[17-Mar-2017 15:29:44 America/New_York] PHP Notice:  Use of undefined constant transaction_id - assumed 'transaction_id' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 52
+[17-Mar-2017 15:36:40 America/New_York] PHP Notice:  Use of undefined constant transaction - assumed 'transaction' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 60
+[17-Mar-2017 15:36:40 America/New_York] PHP Notice:  Use of undefined constant tenders - assumed 'tenders' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 60
+[17-Mar-2017 15:36:40 America/New_York] PHP Notice:  Use of undefined constant transaction_id - assumed 'transaction_id' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 60
+[17-Mar-2017 15:37:04 America/New_York] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php:107
+Stack trace:
+#0 {main}
+  thrown in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 107
+[17-Mar-2017 15:48:42 America/New_York] PHP Parse error:  syntax error, unexpected '$key' (T_VARIABLE) in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 69
+[17-Mar-2017 15:49:36 America/New_York] PHP Parse error:  syntax error, unexpected ''send'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 94
+[17-Mar-2017 15:50:27 America/New_York] PHP Notice:  Use of undefined constant transaction - assumed 'transaction' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 61
+[17-Mar-2017 15:50:27 America/New_York] PHP Notice:  Use of undefined constant tenders - assumed 'tenders' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 61
+[17-Mar-2017 15:50:27 America/New_York] PHP Notice:  Use of undefined constant transaction_id - assumed 'transaction_id' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 61
+[17-Mar-2017 15:50:27 America/New_York] PHP Notice:  Undefined index: groupName in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 67
+[17-Mar-2017 15:50:27 America/New_York] PHP Notice:  Use of undefined constant DEBUG - assumed 'DEBUG' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 84
+[17-Mar-2017 15:50:27 America/New_York] PHP Notice:  Use of undefined constant DEBUG - assumed 'DEBUG' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 84
+[17-Mar-2017 15:50:27 America/New_York] PHP Notice:  Use of undefined constant DEBUG - assumed 'DEBUG' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 84
+[17-Mar-2017 15:50:27 America/New_York] PHP Notice:  Use of undefined constant DEBUG - assumed 'DEBUG' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 84
+[17-Mar-2017 15:50:27 America/New_York] PHP Notice:  Use of undefined constant DEBUG - assumed 'DEBUG' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 84
+[17-Mar-2017 15:52:55 America/New_York] PHP Notice:  Use of undefined constant transaction - assumed 'transaction' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 61
+[17-Mar-2017 15:52:55 America/New_York] PHP Notice:  Use of undefined constant tenders - assumed 'tenders' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 61
+[17-Mar-2017 15:52:55 America/New_York] PHP Notice:  Use of undefined constant transaction_id - assumed 'transaction_id' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 61
+[17-Mar-2017 15:52:55 America/New_York] PHP Notice:  Undefined index: groupName in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 67
+[17-Mar-2017 15:52:55 America/New_York] PHP Notice:  Use of undefined constant DEBUG - assumed 'DEBUG' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 84
+[17-Mar-2017 15:52:55 America/New_York] PHP Notice:  Use of undefined constant DEBUG - assumed 'DEBUG' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 84
+[17-Mar-2017 15:52:55 America/New_York] PHP Notice:  Use of undefined constant DEBUG - assumed 'DEBUG' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 84
+[17-Mar-2017 15:52:55 America/New_York] PHP Notice:  Use of undefined constant DEBUG - assumed 'DEBUG' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 84
+[17-Mar-2017 15:52:55 America/New_York] PHP Notice:  Use of undefined constant DEBUG - assumed 'DEBUG' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 84
+[17-Mar-2017 16:00:05 America/New_York] PHP Notice:  Use of undefined constant transaction - assumed 'transaction' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 61
+[17-Mar-2017 16:00:05 America/New_York] PHP Notice:  Use of undefined constant tenders - assumed 'tenders' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 61
+[17-Mar-2017 16:00:05 America/New_York] PHP Notice:  Use of undefined constant transaction_id - assumed 'transaction_id' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 61
+[17-Mar-2017 16:00:05 America/New_York] PHP Notice:  Undefined index: groupName in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 67
+[17-Mar-2017 16:00:59 America/New_York] PHP Notice:  Use of undefined constant transaction - assumed 'transaction' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 61
+[17-Mar-2017 16:00:59 America/New_York] PHP Notice:  Use of undefined constant tenders - assumed 'tenders' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 61
+[17-Mar-2017 16:00:59 America/New_York] PHP Notice:  Use of undefined constant transaction_id - assumed 'transaction_id' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 61
+[17-Mar-2017 16:00:59 America/New_York] PHP Notice:  Undefined index: groupName in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 67
+[17-Mar-2017 16:03:07 America/New_York] PHP Notice:  Use of undefined constant transaction - assumed 'transaction' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 61
+[17-Mar-2017 16:03:07 America/New_York] PHP Notice:  Use of undefined constant tenders - assumed 'tenders' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 61
+[17-Mar-2017 16:03:07 America/New_York] PHP Notice:  Use of undefined constant transaction_id - assumed 'transaction_id' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 61
+[17-Mar-2017 16:06:47 America/New_York] PHP Notice:  Use of undefined constant transaction - assumed 'transaction' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 61
+[17-Mar-2017 16:06:47 America/New_York] PHP Notice:  Use of undefined constant tenders - assumed 'tenders' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 61
+[17-Mar-2017 16:06:47 America/New_York] PHP Notice:  Use of undefined constant transaction_id - assumed 'transaction_id' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 61
+[17-Mar-2017 16:09:15 America/New_York] PHP Notice:  Use of undefined constant transaction - assumed 'transaction' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 61
+[17-Mar-2017 16:09:15 America/New_York] PHP Notice:  Use of undefined constant tenders - assumed 'tenders' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 61
+[17-Mar-2017 16:09:15 America/New_York] PHP Notice:  Use of undefined constant transaction_id - assumed 'transaction_id' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 61
+[17-Mar-2017 16:46:36 America/New_York] PHP Notice:  Use of undefined constant transaction - assumed 'transaction' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 61
+[17-Mar-2017 16:46:36 America/New_York] PHP Notice:  Use of undefined constant tenders - assumed 'tenders' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 61
+[17-Mar-2017 16:46:36 America/New_York] PHP Notice:  Use of undefined constant transaction_id - assumed 'transaction_id' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 61
+[17-Mar-2017 16:55:39 America/New_York] PHP Notice:  Use of undefined constant transaction - assumed 'transaction' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 61
+[17-Mar-2017 16:55:39 America/New_York] PHP Notice:  Use of undefined constant tenders - assumed 'tenders' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 61
+[17-Mar-2017 16:55:39 America/New_York] PHP Notice:  Use of undefined constant transaction_id - assumed 'transaction_id' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 61
+[17-Mar-2017 17:18:31 America/New_York] PHP Parse error:  syntax error, unexpected '$txn_id' (T_VARIABLE) in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 62
+[17-Mar-2017 17:19:29 America/New_York] PHP Notice:  Use of undefined constant transaction - assumed 'transaction' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 62
+[17-Mar-2017 17:19:29 America/New_York] PHP Notice:  Use of undefined constant tenders - assumed 'tenders' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 62
+[17-Mar-2017 17:19:29 America/New_York] PHP Notice:  Use of undefined constant transaction_id - assumed 'transaction_id' in /home/jonfxlja/public_html/scuvsa.org/show/process-card.php on line 62
