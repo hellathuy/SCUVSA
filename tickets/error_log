@@ -1,0 +1,224 @@
+[05-Apr-2016 00:27:32 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 34
+[05-Apr-2016 00:27:45 America/New_York] PHP Fatal error:  Using $this when not in object context in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 32
+[05-Apr-2016 01:00:25 America/New_York] PHP Parse error:  syntax error, unexpected '$pdf' (T_VARIABLE) in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 32
+[05-Apr-2016 01:00:46 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Unsupported image type: php%3ffirst%3dtarget%26last%3dtran%26key%3dbaadad37b0a326219ea175cbc4932eec&choe=utf-8' in /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php:271
+Stack trace:
+#0 /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php(884): FPDF->Error('Unsupported ima...')
+#1 /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php(31): FPDF->Image('https://chart.g...')
+#2 {main}
+  thrown in /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php on line 271
+[05-Apr-2016 01:35:29 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 31
+[05-Apr-2016 01:35:56 America/New_York] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 31
+[05-Apr-2016 01:35:56 America/New_York] PHP Warning:  file_put_contents() expects parameter 3 to be long, string given in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 31
+[05-Apr-2016 01:35:56 America/New_York] PHP Warning:  fopen(2fda512f818e88944baa9eb20640dd5b.png): failed to open stream: No such file or directory in /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php on line 1259
+[05-Apr-2016 01:35:56 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Can't open image file: 2fda512f818e88944baa9eb20640dd5b.png' in /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php:271
+Stack trace:
+#0 /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php(1261): FPDF->Error('Can't open imag...')
+#1 /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php(885): FPDF->_parsepng('2fda512f818e889...')
+#2 /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php(32): FPDF->Image('2fda512f818e889...')
+#3 {main}
+  thrown in /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php on line 271
+[05-Apr-2016 01:42:53 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Image file has no extension and no type was specified: .png' in /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php:271
+Stack trace:
+#0 /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php(876): FPDF->Error('Image file has ...')
+#1 /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php(35): FPDF->Image('.png')
+#2 {main}
+  thrown in /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php on line 271
+[05-Apr-2016 01:46:04 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Image file has no extension and no type was specified: .png' in /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php:271
+Stack trace:
+#0 /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php(876): FPDF->Error('Image file has ...')
+#1 /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php(35): FPDF->Image('.png')
+#2 {main}
+  thrown in /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php on line 271
+[05-Apr-2016 02:02:26 America/New_York] PHP Parse error:  syntax error, unexpected 'unlink' (T_STRING) in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 51
+[05-Apr-2016 02:02:51 America/New_York] PHP Warning:  unlink(.png): No such file or directory in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 51
+[05-Apr-2016 02:03:22 America/New_York] PHP Warning:  unlink(.png): No such file or directory in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 51
+[05-Apr-2016 02:03:42 America/New_York] PHP Warning:  unlink(.png): No such file or directory in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 51
+[05-Apr-2016 02:04:06 America/New_York] PHP Warning:  unlink(.png): No such file or directory in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 51
+[05-Apr-2016 02:07:10 America/New_York] PHP Warning:  unlink(.png): No such file or directory in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 51
+[05-Apr-2016 02:11:03 America/New_York] PHP Warning:  unlink(.png): No such file or directory in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 51
+[05-Apr-2016 02:16:10 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Not a PNG file: b656db83db30a6923195498fc2a3939d.png' in /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php:271
+Stack trace:
+#0 /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php(1271): FPDF->Error('Not a PNG file:...')
+#1 /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php(1262): FPDF->_parsepngstream(Resource id #9, 'b656db83db30a69...')
+#2 /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php(885): FPDF->_parsepng('b656db83db30a69...')
+#3 /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php(43): FPDF->Image('b656db83db30a69...')
+#4 {main}
+  thrown in /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php on line 271
+[05-Apr-2016 02:18:15 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Not a PNG file: 6253be91f4e11d2b2dd43876627ba7db.png' in /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php:271
+Stack trace:
+#0 /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php(1271): FPDF->Error('Not a PNG file:...')
+#1 /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php(1262): FPDF->_parsepngstream(Resource id #9, '6253be91f4e11d2...')
+#2 /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php(885): FPDF->_parsepng('6253be91f4e11d2...')
+#3 /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php(43): FPDF->Image('6253be91f4e11d2...')
+#4 {main}
+  thrown in /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php on line 271
+[05-Apr-2016 02:19:32 America/New_York] PHP Warning:  unlink(.png): No such file or directory in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 51
+[05-Apr-2016 02:19:37 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Not a PNG file: 89bf1c0fbec60adb46ae3e627e402652.png' in /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php:271
+Stack trace:
+#0 /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php(1271): FPDF->Error('Not a PNG file:...')
+#1 /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php(1262): FPDF->_parsepngstream(Resource id #9, '89bf1c0fbec60ad...')
+#2 /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php(885): FPDF->_parsepng('89bf1c0fbec60ad...')
+#3 /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php(43): FPDF->Image('89bf1c0fbec60ad...')
+#4 {main}
+  thrown in /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php on line 271
+[05-Apr-2016 02:19:45 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Not a PNG file: 89bf1c0fbec60adb46ae3e627e402652.png' in /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php:271
+Stack trace:
+#0 /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php(1271): FPDF->Error('Not a PNG file:...')
+#1 /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php(1262): FPDF->_parsepngstream(Resource id #9, '89bf1c0fbec60ad...')
+#2 /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php(885): FPDF->_parsepng('89bf1c0fbec60ad...')
+#3 /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php(43): FPDF->Image('89bf1c0fbec60ad...')
+#4 {main}
+  thrown in /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php on line 271
+[05-Apr-2016 02:20:31 America/New_York] PHP Warning:  unlink(.png): No such file or directory in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 51
+[05-Apr-2016 02:21:35 America/New_York] PHP Warning:  unlink(.png): No such file or directory in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 51
+[05-Apr-2016 02:25:10 America/New_York] PHP Warning:  unlink(.png): No such file or directory in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 54
+[05-Apr-2016 02:27:01 America/New_York] PHP Warning:  unlink(.png): No such file or directory in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 54
+[05-Apr-2016 02:27:32 America/New_York] PHP Warning:  unlink(.png): No such file or directory in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 54
+[05-Apr-2016 02:29:14 America/New_York] PHP Warning:  unlink(.png): No such file or directory in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 54
+[05-Apr-2016 02:33:26 America/New_York] PHP Warning:  unlink(.png): No such file or directory in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 54
+[05-Apr-2016 02:35:00 America/New_York] PHP Warning:  unlink(.png): No such file or directory in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 54
+[05-Apr-2016 02:38:39 America/New_York] PHP Warning:  unlink(.png): No such file or directory in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 54
+[05-Apr-2016 02:45:25 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/jonfxlja/public_html/scuvsa.org/show/tickets/validate.php on line 35
+[05-Apr-2016 02:45:33 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/jonfxlja/public_html/scuvsa.org/show/tickets/validate.php on line 35
+[05-Apr-2016 03:27:16 America/New_York] PHP Warning:  unlink(.png): No such file or directory in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 56
+[05-Apr-2016 03:28:07 America/New_York] PHP Warning:  unlink(.png): No such file or directory in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 56
+[05-Apr-2016 03:29:56 America/New_York] PHP Fatal error:  Function name must be a string in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 47
+[05-Apr-2016 03:30:17 America/New_York] PHP Warning:  unlink(.png): No such file or directory in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 58
+[05-Apr-2016 03:33:06 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Unsupported image type: php%3ffirst%3drachael%26last%3dwan%26key%3d8c8e3e618173fc0ff66cfab0b898bc1d' in /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php:271
+Stack trace:
+#0 /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php(884): FPDF->Error('Unsupported ima...')
+#1 /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php(48): FPDF->Image('https://chart.g...', 'PNG')
+#2 {main}
+  thrown in /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php on line 271
+[05-Apr-2016 04:01:30 America/New_York] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS) in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 5
+[05-Apr-2016 04:38:44 America/New_York] PHP Parse error:  syntax error, unexpected '$servername' (T_VARIABLE) in /home/jonfxlja/public_html/scuvsa.org/show/tickets/validate.php on line 11
+[05-Apr-2016 04:39:09 America/New_York] PHP Parse error:  syntax error, unexpected '$servername' (T_VARIABLE) in /home/jonfxlja/public_html/scuvsa.org/show/tickets/validate.php on line 11
+[05-Apr-2016 04:39:18 America/New_York] PHP Parse error:  syntax error, unexpected '$servername' (T_VARIABLE) in /home/jonfxlja/public_html/scuvsa.org/show/tickets/validate.php on line 11
+[06-Apr-2016 06:47:42 America/New_York] PHP Parse error:  syntax error, unexpected '$validation' (T_VARIABLE) in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 75
+[06-Apr-2016 06:48:43 America/New_York] PHP Fatal error:  Call to a member function SetTitle() on a non-object in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 30
+[23-Apr-2016 21:09:28 America/New_York] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'jonfxlja_scuvsa'@'localhost' to database 'jonfxlja_vsatickets2016' in /home/jonfxlja/public_html/scuvsa.org/show/tickets/validate.php on line 16
+[23-Apr-2016 21:09:36 America/New_York] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'jonfxlja_scuvsa'@'localhost' to database 'jonfxlja_vsatickets2016' in /home/jonfxlja/public_html/scuvsa.org/show/tickets/validate.php on line 16
+[23-Apr-2016 21:10:20 America/New_York] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'jonfxlja_scuvsa'@'localhost' to database 'jonfxlja_vsatickets2016' in /home/jonfxlja/public_html/scuvsa.org/show/tickets/validate.php on line 16
+[23-Apr-2016 21:11:33 America/New_York] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'jonfxlja_scuvsa'@'localhost' to database 'jonfxlja_vsatickets2016' in /home/jonfxlja/public_html/scuvsa.org/show/tickets/validate.php on line 16
+[23-Apr-2016 21:11:42 America/New_York] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'jonfxlja_scuvsa'@'localhost' to database 'jonfxlja_vsatickets2016' in /home/jonfxlja/public_html/scuvsa.org/show/tickets/validate.php on line 16
+[18-Feb-2017 02:23:00 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[18-Feb-2017 02:23:06 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[06-Mar-2017 05:47:13 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[06-Mar-2017 05:47:18 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[06-Mar-2017 05:49:32 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[06-Mar-2017 05:49:40 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[06-Mar-2017 05:49:44 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[06-Mar-2017 05:52:25 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[06-Mar-2017 05:52:27 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[06-Mar-2017 05:55:14 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[06-Mar-2017 05:55:16 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[06-Mar-2017 06:02:16 America/New_York] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 37
+[06-Mar-2017 06:02:17 America/New_York] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 37
+[06-Mar-2017 06:02:21 America/New_York] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 37
+[06-Mar-2017 06:02:29 America/New_York] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 37
+[06-Mar-2017 06:02:40 America/New_York] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 37
+[06-Mar-2017 06:02:41 America/New_York] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 37
+[06-Mar-2017 06:03:32 America/New_York] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 37
+[06-Mar-2017 06:03:33 America/New_York] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 37
+[06-Mar-2017 06:04:03 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[06-Mar-2017 06:04:04 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[06-Mar-2017 06:04:57 America/New_York] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 35
+[06-Mar-2017 06:05:02 America/New_York] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 35
+[06-Mar-2017 06:06:09 America/New_York] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 36
+[06-Mar-2017 06:06:10 America/New_York] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 36
+[06-Mar-2017 06:06:36 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[06-Mar-2017 06:06:37 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[06-Mar-2017 06:08:56 America/New_York] PHP Notice:  Undefined variable: image in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 35
+[06-Mar-2017 06:08:56 America/New_York] PHP Notice:  Undefined variable: size in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 35
+[06-Mar-2017 06:08:56 America/New_York] PHP Notice:  Undefined variable: size in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 35
+[06-Mar-2017 06:08:56 America/New_York] PHP Warning:  fopen(ticket.png): failed to open stream: No such file or directory in /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php on line 1259
+[06-Mar-2017 06:08:56 America/New_York] PHP Fatal error:  Uncaught Exception: FPDF error: Can't open image file: ticket.png in /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php:271
+Stack trace:
+#0 /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php(1261): FPDF->Error('Can't open imag...')
+#1 /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php(885): FPDF->_parsepng('ticket.png')
+#2 /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php(35): FPDF->Image('ticket.png', 0, 0, NULL, NULL)
+#3 /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php(69): PDF->CreateTicket('Thuy', 'Le', '3e62510cb83bb57...', '')
+#4 {main}
+  thrown in /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php on line 271
+[06-Mar-2017 06:08:57 America/New_York] PHP Notice:  Undefined variable: image in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 35
+[06-Mar-2017 06:08:57 America/New_York] PHP Notice:  Undefined variable: size in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 35
+[06-Mar-2017 06:08:57 America/New_York] PHP Notice:  Undefined variable: size in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 35
+[06-Mar-2017 06:08:57 America/New_York] PHP Warning:  fopen(ticket.png): failed to open stream: No such file or directory in /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php on line 1259
+[06-Mar-2017 06:08:57 America/New_York] PHP Fatal error:  Uncaught Exception: FPDF error: Can't open image file: ticket.png in /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php:271
+Stack trace:
+#0 /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php(1261): FPDF->Error('Can't open imag...')
+#1 /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php(885): FPDF->_parsepng('ticket.png')
+#2 /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php(35): FPDF->Image('ticket.png', 0, 0, NULL, NULL)
+#3 /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php(69): PDF->CreateTicket('Thuy', 'Le', '3e62510cb83bb57...', '')
+#4 {main}
+  thrown in /home/jonfxlja/public_html/scuvsa.org/show/tickets/fpdf.php on line 271
+[08-Mar-2017 23:17:48 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[08-Mar-2017 23:17:53 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[08-Mar-2017 23:17:54 America/New_York] PHP Notice:  Undefined index: email in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 57
+[08-Mar-2017 23:17:54 America/New_York] PHP Notice:  Undefined index: send in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 58
+[08-Mar-2017 23:19:04 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[08-Mar-2017 23:19:06 America/New_York] PHP Notice:  Undefined index: email in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 57
+[08-Mar-2017 23:19:06 America/New_York] PHP Notice:  Undefined index: send in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 58
+[08-Mar-2017 23:20:19 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[08-Mar-2017 23:20:21 America/New_York] PHP Notice:  Undefined index: email in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 57
+[08-Mar-2017 23:20:21 America/New_York] PHP Notice:  Undefined index: send in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 58
+[08-Mar-2017 23:23:26 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[08-Mar-2017 23:23:30 America/New_York] PHP Notice:  Undefined index: email in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 57
+[08-Mar-2017 23:23:30 America/New_York] PHP Notice:  Undefined index: send in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 58
+[08-Mar-2017 23:24:57 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[08-Mar-2017 23:25:00 America/New_York] PHP Notice:  Undefined index: email in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 58
+[08-Mar-2017 23:25:00 America/New_York] PHP Notice:  Undefined index: send in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 59
+[08-Mar-2017 23:26:15 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[08-Mar-2017 23:26:17 America/New_York] PHP Notice:  Undefined index: email in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 58
+[08-Mar-2017 23:26:17 America/New_York] PHP Notice:  Undefined index: send in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 59
+[08-Mar-2017 23:30:57 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[08-Mar-2017 23:30:59 America/New_York] PHP Notice:  Undefined index: email in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 43
+[08-Mar-2017 23:30:59 America/New_York] PHP Notice:  Undefined index: send in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 44
+[08-Mar-2017 23:32:17 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[08-Mar-2017 23:32:19 America/New_York] PHP Notice:  Undefined index: email in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 43
+[08-Mar-2017 23:32:19 America/New_York] PHP Notice:  Undefined index: send in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 44
+[08-Mar-2017 23:33:10 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[08-Mar-2017 23:33:12 America/New_York] PHP Notice:  Undefined index: email in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 43
+[08-Mar-2017 23:33:12 America/New_York] PHP Notice:  Undefined index: send in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 44
+[08-Mar-2017 23:34:14 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[08-Mar-2017 23:34:15 America/New_York] PHP Notice:  Undefined index: email in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 43
+[08-Mar-2017 23:34:15 America/New_York] PHP Notice:  Undefined index: send in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 44
+[08-Mar-2017 23:35:11 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[08-Mar-2017 23:35:13 America/New_York] PHP Notice:  Undefined index: email in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 43
+[08-Mar-2017 23:35:13 America/New_York] PHP Notice:  Undefined index: send in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 44
+[08-Mar-2017 23:35:59 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[08-Mar-2017 23:36:00 America/New_York] PHP Notice:  Undefined index: email in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 43
+[08-Mar-2017 23:36:00 America/New_York] PHP Notice:  Undefined index: send in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 44
+[08-Mar-2017 23:37:33 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[08-Mar-2017 23:37:36 America/New_York] PHP Notice:  Undefined index: email in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 43
+[08-Mar-2017 23:37:36 America/New_York] PHP Notice:  Undefined index: send in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 44
+[08-Mar-2017 23:40:56 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[08-Mar-2017 23:41:01 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[09-Mar-2017 00:18:45 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[09-Mar-2017 00:19:08 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[09-Mar-2017 00:19:13 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[09-Mar-2017 15:34:08 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[09-Mar-2017 15:34:15 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[17-Mar-2017 15:36:40 America/New_York] PHP Notice:  Undefined index: board in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 41
+[17-Mar-2017 15:36:57 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[17-Mar-2017 15:50:27 America/New_York] PHP Notice:  Undefined index: board in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 41
+[17-Mar-2017 15:50:44 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[17-Mar-2017 15:52:56 America/New_York] PHP Notice:  Undefined index: board in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 41
+[17-Mar-2017 15:53:13 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[17-Mar-2017 16:00:06 America/New_York] PHP Notice:  Undefined index: board in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 41
+[17-Mar-2017 16:00:23 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[17-Mar-2017 16:00:59 America/New_York] PHP Notice:  Undefined index: board in /home/jonfxlja/public_html/scuvsa.org/show/tickets/ticket.php on line 41
+[17-Mar-2017 16:01:16 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[17-Mar-2017 16:03:26 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[17-Mar-2017 16:07:07 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[17-Mar-2017 16:09:37 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[17-Mar-2017 16:46:40 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[17-Mar-2017 16:55:58 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[17-Mar-2017 17:19:32 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[17-Mar-2017 17:46:58 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[17-Mar-2017 17:47:11 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[17-Mar-2017 17:49:22 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[17-Mar-2017 17:49:36 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[17-Mar-2017 17:50:26 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5
+[17-Mar-2017 17:50:41 America/New_York] PHP Notice:  Undefined variable: row in /home/jonfxlja/public_html/scuvsa.org/show/tickets/email.php on line 5

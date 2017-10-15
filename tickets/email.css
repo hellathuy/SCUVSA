@@ -1,0 +1,52 @@
+body {
+	background-color: #122363;
+	font-size: 16px;
+}
+
+.container {
+	background-color: #eee;
+	height: 100%;
+}
+
+.header-img {
+	display: block; margin-left: auto; margin-right: auto; margin-bottom: 30px; border: 1px solid black;
+}
+
+.thank-you {
+	text-align: center; font-weight: bold; font-size: 30px; margin-bottom: 30px;
+}
+
+.main-body {
+	margin-left: 2.5%; margin-right: 2.5%; margin-bottom: 20px;
+}
+
+.enjoy {
+	text-align: center; font-weight: bold; font-size: 20px;
+}
+
+hr {
+    border: 0; height: 1px; background: #333; background-image: linear-gradient(to right, #ccc, #333, #ccc); margin-top: 30px; margin-bottom: 30px;
+}
+
+.social-bar {
+	text-align: center; font-size: 40px; margin-bottom: 20px;
+}
+.social-bar ul {
+	padding: 0px;
+}
+.social-bar li {
+	display: inline; margin-left: 10px; margin-right: 10px;
+}
+.social-bar-fb a:hover {
+	color: #4862a3 !important;
+}
+.social-bar-ig a:hover {
+	color: orange !important;
+}
+.social-bar-yt a:hover {
+	color: red !important;
+}
+
+.tag {
+	font-size: 14px; text-align: center;
+}
